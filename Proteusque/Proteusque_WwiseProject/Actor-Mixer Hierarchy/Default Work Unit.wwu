@@ -46,10 +46,17 @@
 								<MediaID ID="451248812"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="c whale song" ID="{E135DE98-DED8-45D9-B934-718BCF90F82D}">
+							<Language>SFX</Language>
+							<AudioFile>c whale song.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="955429204"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ObjectLists/>
 					<ActiveSourceList>
-						<ActiveSource Name="ProteusqueSpatialLoop1" ID="{03FFB63E-C19A-492E-849D-EA0DCB3F85F7}" Platform="Linked"/>
+						<ActiveSource Name="c whale song" ID="{E135DE98-DED8-45D9-B934-718BCF90F82D}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="ProteusqueSpatialLoop2" ID="{79009F8D-5703-4250-89EC-75CF7A2F4F28}" ShortID="277745157">
@@ -95,10 +102,17 @@
 								<MediaID ID="670101358"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="b wind birds" ID="{2C179A09-92C2-435C-9850-D45594DA0B5F}">
+							<Language>SFX</Language>
+							<AudioFile>b wind birds.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="614186669"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ObjectLists/>
 					<ActiveSourceList>
-						<ActiveSource Name="ProteusqueSpatialLoop2" ID="{39BE5F24-E65A-4B2A-9D08-6A4BAF31BF1B}" Platform="Linked"/>
+						<ActiveSource Name="b wind birds" ID="{2C179A09-92C2-435C-9850-D45594DA0B5F}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="ProteusqueSpatialLoop3" ID="{8A64218F-C886-47F0-90C6-64CB38E7AE21}" ShortID="609591018">
@@ -138,10 +152,22 @@
 								<MediaID ID="328500420"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="a rando" ID="{03ACB6DC-9F93-49A0-AA5A-48DCD7A0080E}">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+							</ReferenceList>
+							<Language>SFX</Language>
+							<AudioFile>a rando.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="392506269"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ObjectLists/>
 					<ActiveSourceList>
-						<ActiveSource Name="ProteusqueSpatialLoop3" ID="{E8F56176-554D-4B45-8A7F-6B3F0019CA79}" Platform="Linked"/>
+						<ActiveSource Name="a rando" ID="{03ACB6DC-9F93-49A0-AA5A-48DCD7A0080E}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

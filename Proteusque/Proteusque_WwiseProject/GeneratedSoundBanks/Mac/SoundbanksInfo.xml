@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>/Users/honeyboyjones/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Development/music_gameplay/assignment_repo/Proteusque/Proteusque_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/honeyboyjones/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Development/music_gameplay/assignment_repo/Proteusque/Proteusque_WwiseProject/.cache/Mac/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/honeyboyjones/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Development/music_gameplay/assignment_repo/Proteusque/Proteusque_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ProjectRoot>/Users/honeyboyjones/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Development/music_gameplay/potentiality_music_sim/Proteusque/Proteusque_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/honeyboyjones/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Development/music_gameplay/potentiality_music_sim/Proteusque/Proteusque_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/honeyboyjones/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Development/music_gameplay/potentiality_music_sim/Proteusque/Proteusque_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/honeyboyjones/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Development/music_gameplay/assignment_repo/Proteusque/Proteusque_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/honeyboyjones/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Development/music_gameplay/potentiality_music_sim/Proteusque/Proteusque_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2416386526" Language="SFX" Hash="845320768">
+		<SoundBank Id="2416386526" Language="SFX" Hash="1628475546">
 			<ObjectPath>\SoundBanks\Default Work Unit\Proteusque</ObjectPath>
 			<ShortName>Proteusque</ShortName>
 			<Path>Proteusque.bnk</Path>
@@ -103,25 +103,25 @@
 				</Event>
 				<Event Id="3415295600" Name="StartSpatialLoop1" ObjectPath="\Events\Default Work Unit\StartSpatialLoop1" MaxAttenuation="20." DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="451248812" Language="SFX">
-							<ShortName>ProteusqueSpatialLoop1.wav</ShortName>
-							<Path>SFX/ProteusqueSpatialLoop1_9EDFC787.wem</Path>
+						<File Id="955429204" Language="SFX">
+							<ShortName>c whale song.wav</ShortName>
+							<Path>SFX/c whale song_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3415295603" Name="StartSpatialLoop2" ObjectPath="\Events\Default Work Unit\StartSpatialLoop2" MaxAttenuation="20." DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="670101358" Language="SFX">
-							<ShortName>ProteusqueSpatialLoop2.wav</ShortName>
-							<Path>SFX/ProteusqueSpatialLoop2_9EDFC787.wem</Path>
+						<File Id="614186669" Language="SFX">
+							<ShortName>b wind birds.wav</ShortName>
+							<Path>SFX/b wind birds_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3415295602" Name="StartSpatialLoop3" ObjectPath="\Events\Default Work Unit\StartSpatialLoop3" MaxAttenuation="20." DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="328500420" Language="SFX">
-							<ShortName>ProteusqueSpatialLoop3.wav</ShortName>
-							<Path>SFX/ProteusqueSpatialLoop3_9EDFC787.wem</Path>
+						<File Id="392506269" Language="SFX">
+							<ShortName>a rando.wav</ShortName>
+							<Path>SFX/a rando_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

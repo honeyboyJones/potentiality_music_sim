@@ -62,8 +62,8 @@
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>13.95671</XPos>
-																		<YPos>-0.87004</YPos>
+																		<XPos>6.11751</XPos>
+																		<YPos>-3.43607</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>SCurve</SegmentShape>
 																	</Point>
@@ -317,8 +317,8 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>10.20533</XPos>
-																		<YPos>-4.53582</YPos>
+																		<XPos>7.49176</XPos>
+																		<YPos>-5.03387</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
@@ -403,8 +403,8 @@
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>9.81693</XPos>
-																		<YPos>1</YPos>
+																		<XPos>6.6511</XPos>
+																		<YPos>2</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
@@ -602,8 +602,8 @@
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>12.60021</XPos>
-																		<YPos>-6.59512000000001</YPos>
+																		<XPos>5.96704</XPos>
+																		<YPos>-7.91802</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
@@ -738,8 +738,8 @@
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>12.85261</XPos>
-																		<YPos>-3.12904</YPos>
+																		<XPos>8.6315</XPos>
+																		<YPos>-3.33735</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
@@ -899,8 +899,8 @@
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>9.81693</XPos>
-																		<YPos>1</YPos>
+																		<XPos>6.34959</XPos>
+																		<YPos>5</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>

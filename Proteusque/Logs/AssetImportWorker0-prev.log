@@ -1,0 +1,817 @@
+Unity Editor version:    2020.3.27f1 (e759542391ea)
+Branch:                  2020.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 10.15.7 (Build 19H1419)
+Darwin version:          19.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/honeyboyjones/Development/music_gameplay/potentiality_music_sim/Proteusque
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55905
+Successfully changed project path to: /Users/honeyboyjones/Development/music_gameplay/potentiality_music_sim/Proteusque
+/Users/honeyboyjones/Development/music_gameplay/potentiality_music_sim/Proteusque
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 76.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/honeyboyjones/Development/music_gameplay/potentiality_music_sim/Proteusque/Assets
+GfxDevice: creating device client; threaded=0
+2022-04-11 10:01:42.631 Unity[44818:2370576] PA278QV preferred device: NVIDIA GeForce GT 750M (high power)
+2022-04-11 10:01:42.631 Unity[44818:2370576] Metal devices available: 1
+2022-04-11 10:01:42.631 Unity[44818:2370576] 0: NVIDIA GeForce GT 750M (high power)
+2022-04-11 10:01:42.631 Unity[44818:2370576] Using device NVIDIA GeForce GT 750M (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 750M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56818
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.27f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002124 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 58.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.924 seconds
+Domain Reload Profiling:
+	ReloadAssembly (924ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (704ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006463 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 53.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.236 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2238ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1921ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (519ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (963ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (756ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.019476 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.015742 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.0 MB.
+System memory in use after: 233.8 MB.
+
+Unloading 226 unused Assets to reduce memory usage. Loaded Objects now: 2762.
+Total: 5.696105 ms (FindLiveObjects: 0.335228 ms CreateObjectMapping: 0.271601 ms MarkObjects: 4.646105 ms  DeleteObjects: 0.442255 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Terrain/New Terrain.asset
+  artifactKey: Guid(6d7a07db4e51bb5468b90d72d17447f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/New Terrain.asset using Guid(6d7a07db4e51bb5468b90d72d17447f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f900e16c4f4c96f0a5cede664078ff7') in 0.599915 seconds 
+  Import took 0.614023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.420351 seconds.
+  path: Assets/Terrain/New Terrain 2.asset
+  artifactKey: Guid(5a3b847659ade3d489515425b27d8077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/New Terrain 2.asset using Guid(5a3b847659ade3d489515425b27d8077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6646f4f6b59f88c4a4e60f0b99e45241') in 0.064363 seconds 
+  Import took 0.070918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.425286 seconds.
+  path: Assets/Scripts/PlayerElevationToWwise.cs
+  artifactKey: Guid(0e2dfa18c4f5c7346b74c97cc6d51109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerElevationToWwise.cs using Guid(0e2dfa18c4f5c7346b74c97cc6d51109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d840e8c408b922308efba76752a14df') in 0.339983 seconds 
+  Import took 0.352362 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010664 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 58.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  3.738 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3739ms)
+		BeginReloadAssembly (493ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (197ms)
+		EndReloadAssembly (3086ms)
+			LoadAssemblies (381ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1076ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (140ms)
+			SetupLoadedEditorAssemblies (1384ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (1115ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 262.6 MB.
+System memory in use after: 259.2 MB.
+
+Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 2927.
+Total: 8.134247 ms (FindLiveObjects: 0.353051 ms CreateObjectMapping: 0.247484 ms MarkObjects: 5.525032 ms  DeleteObjects: 2.006977 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 722.009043 seconds.
+  path: Assets/Terrain/NewLayer.terrainlayer
+  artifactKey: Guid(a2f63b51333281b429c013a575949983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/NewLayer.terrainlayer using Guid(a2f63b51333281b429c013a575949983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c52738c9b57390f65bb164b753e5e00') in 0.381897 seconds 
+  Import took 0.391775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Terrain/NewLayer 2.terrainlayer
+  artifactKey: Guid(ad2388033455f4a42b38d5f46ce8c510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/NewLayer 2.terrainlayer using Guid(ad2388033455f4a42b38d5f46ce8c510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b917f985cc5d334c09ccc4e89b0f7862') in 0.010298 seconds 
+  Import took 0.015006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Terrain/NewLayer 1.terrainlayer
+  artifactKey: Guid(b66c22091ac944a4cac7cb71e0b0c93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/NewLayer 1.terrainlayer using Guid(b66c22091ac944a4cac7cb71e0b0c93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f641d4b0bd4437a91c401c97413ee49') in 0.010189 seconds 
+  Import took 0.016708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Terrain/NewLayer 3.terrainlayer
+  artifactKey: Guid(8ea56c518d569aa4fbfe46bc98dea4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/NewLayer 3.terrainlayer using Guid(8ea56c518d569aa4fbfe46bc98dea4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71180c0c0faded213b64c8d6b0e81f4d') in 0.009616 seconds 
+  Import took 0.014672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.588593 seconds.
+  path: Assets/Terrain/NewLayer 4.terrainlayer
+  artifactKey: Guid(bd16346fc1c19954f8f1cf48326a70d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/NewLayer 4.terrainlayer using Guid(bd16346fc1c19954f8f1cf48326a70d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35eab910bc4a4f214b1de75224a3600') in 0.012983 seconds 
+  Import took 0.019003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060138 seconds.
+  path: Assets/Terrain/NewLayer 5.terrainlayer
+  artifactKey: Guid(39fa8511d0d286e458eb14fa5f9f849d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/NewLayer 5.terrainlayer using Guid(39fa8511d0d286e458eb14fa5f9f849d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eccf7116b902ed098e28156f901eeee') in 0.013224 seconds 
+  Import took 0.018927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.601603 seconds.
+  path: Assets/Terrain/NewLayer 6.terrainlayer
+  artifactKey: Guid(85c6c83a56be89b45adfc35f491b4291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/NewLayer 6.terrainlayer using Guid(85c6c83a56be89b45adfc35f491b4291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5932c823d28740a6b417dcfbfecf5f') in 0.012281 seconds 
+  Import took 0.018251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.898195 seconds.
+  path: Assets/Textures/SquareEarth2.png
+  artifactKey: Guid(e535cf3da88e9da4c9e67f0d6a17db20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/SquareEarth2.png using Guid(e535cf3da88e9da4c9e67f0d6a17db20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd456b5971f2f5fe27f9c894b2d4234f8') in 0.557859 seconds 
+  Import took 0.569699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.608272 seconds.
+  path: Assets/Textures/GreenGround.png
+  artifactKey: Guid(c0e9d1a8340d51c4aab49b374fa00748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/GreenGround.png using Guid(c0e9d1a8340d51c4aab49b374fa00748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c29258b99be41f27212c0763fc82a56') in 0.059331 seconds 
+  Import took 0.064549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.503268 seconds.
+  path: Assets/Textures/PurpleGround.png
+  artifactKey: Guid(d9596aeb00f699d4788adc37f7d2d33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/PurpleGround.png using Guid(d9596aeb00f699d4788adc37f7d2d33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9aced06c09be6dbb0b974b95c2b2c0') in 0.013101 seconds 
+  Import took 0.018643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.267787 seconds.
+  path: Assets/Textures/SquareWater.png
+  artifactKey: Guid(6b092e907831fe04191d2ee502c8f9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/SquareWater.png using Guid(6b092e907831fe04191d2ee502c8f9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e680d4a2a3c27cd2e70c8275dee6f7de') in 0.045590 seconds 
+  Import took 0.051052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.750545 seconds.
+  path: Assets/Textures/SquareEarth.png
+  artifactKey: Guid(d6ba550686a38ee4bbfc19ffabbc57b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/SquareEarth.png using Guid(d6ba550686a38ee4bbfc19ffabbc57b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebce1b997271ea095defcf9c9ba80f0') in 0.009284 seconds 
+  Import took 0.015879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.250718 seconds.
+  path: Assets/Textures/Magenta.png
+  artifactKey: Guid(2df15619f409faa4a8240db714be2cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Magenta.png using Guid(2df15619f409faa4a8240db714be2cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dadb5ef626dfa1db21cdb84ff3223dc') in 0.009108 seconds 
+  Import took 0.015014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.032146 seconds.
+  path: Assets/Textures/GreyEarth.png
+  artifactKey: Guid(42b30edae46aaa64a9bed7674b1dc94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/GreyEarth.png using Guid(42b30edae46aaa64a9bed7674b1dc94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edc472b225590f34272e8f759fdd730') in 0.010917 seconds 
+  Import took 0.016966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.076801 seconds.
+  path: Assets/Terrain/New Terrain Layer.terrainlayer
+  artifactKey: Guid(dff41e7f524724226b7187b23dccbd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/New Terrain Layer.terrainlayer using Guid(dff41e7f524724226b7187b23dccbd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6af4662a6171bfd8593d909b7613bb') in 0.007213 seconds 
+  Import took 0.014162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 735.547720 seconds.
+  path: Assets/Textures/textures
+  artifactKey: Guid(6057a4ea47ede4a939a797fd58635b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/textures using Guid(6057a4ea47ede4a939a797fd58635b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f5488e46e062193b2b40fec3abcbee') in 0.004125 seconds 
+  Import took 0.025842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.073360 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(a424d62ee1e975547ad0bec3a2dd5f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(a424d62ee1e975547ad0bec3a2dd5f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e30d1b539cea9ba43c4d16b2bf39a4') in 0.004887 seconds 
+  Import took 0.009833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.055735 seconds.
+  path: Assets/Textures/New Terrain Layer.terrainlayer
+  artifactKey: Guid(da2e209be5ca744fea177d62c3719f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/New Terrain Layer.terrainlayer using Guid(da2e209be5ca744fea177d62c3719f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f657041b2e0f2070e56eda31734805a6') in 0.018878 seconds 
+  Import took 0.025042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.911061 seconds.
+  path: Assets/Textures/textures/coast_sand_rocks_02_diff_1k.jpg
+  artifactKey: Guid(a693139b151964d8e86d1bd960e1de46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/textures/coast_sand_rocks_02_diff_1k.jpg using Guid(a693139b151964d8e86d1bd960e1de46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e958cc6b6e748313ea0332c41f467bc') in 0.798921 seconds 
+  Import took 0.812721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.250708 seconds.
+  path: Assets/Textures/textures/coast_sand_rocks_02_nor_dx_1k.exr
+  artifactKey: Guid(d03dc2eed81cc4be78591c95bd1f2b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/textures/coast_sand_rocks_02_nor_dx_1k.exr using Guid(d03dc2eed81cc4be78591c95bd1f2b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95ebb67ae5aba35d7aadb3aca96aa50') in 0.520220 seconds 
+  Import took 0.533145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.004197 seconds.
+  path: Assets/Textures/3D dirt.terrainlayer
+  artifactKey: Guid(da2e209be5ca744fea177d62c3719f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D dirt.terrainlayer using Guid(da2e209be5ca744fea177d62c3719f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca24821b917a48298f68c4a7c15ba900') in 0.046544 seconds 
+  Import took 0.051457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 284.592400 seconds.
+  path: Assets/Textures/aerial_rocks_02_1k
+  artifactKey: Guid(2a930e0033aa6452bbebb87fc06f3a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/aerial_rocks_02_1k using Guid(2a930e0033aa6452bbebb87fc06f3a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3fd1a0432aa7ea991935bbbeadbff8') in 0.002696 seconds 
+  Import took 0.008004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.913248 seconds.
+  path: Assets/Textures/coast_sand_rocks_02_1k/coast_sand_rocks_02_1k.gltf
+  artifactKey: Guid(796582472e8274d6b9781ebd66e35895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/coast_sand_rocks_02_1k/coast_sand_rocks_02_1k.gltf using Guid(796582472e8274d6b9781ebd66e35895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d20f3c9c9e698214b247534fa07b024') in 0.184397 seconds 
+  Import took 0.196196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.248330 seconds.
+  path: Assets/Textures/coast_sand_rocks_02_1k/coast_sand_rocks_02_1k.blend
+  artifactKey: Guid(3ae1ccd46ccec435194be9f22d204a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/coast_sand_rocks_02_1k/coast_sand_rocks_02_1k.blend using Guid(3ae1ccd46ccec435194be9f22d204a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95057da3d1bd5d9a744dd75ceccaa239') in 0.174887 seconds 
+  Import took 0.184336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.544011 seconds.
+  path: Assets/Textures/coast_sand_02_1k/coast_sand_02_1k.gltf
+  artifactKey: Guid(d58a536431ba341448c901420d10ff0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/coast_sand_02_1k/coast_sand_02_1k.gltf using Guid(d58a536431ba341448c901420d10ff0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c9a70beeeb64ddc409f7dcb0622bbc') in 0.006201 seconds 
+  Import took 0.011450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.438158 seconds.
+  path: Assets/Textures/coast_sand_02_1k/coast_sand_02_1k.blend
+  artifactKey: Guid(fdf861a9006a1444498186e16d3e8589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/coast_sand_02_1k/coast_sand_02_1k.blend using Guid(fdf861a9006a1444498186e16d3e8589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7637e4d3af4c2453b2aaa0e59d375f34') in 0.005840 seconds 
+  Import took 0.011542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.123522 seconds.
+  path: Assets/Textures/aerial_rocks_02_1k/aerial_rocks_02_1k.gltf
+  artifactKey: Guid(7e6d4d237301246a283ce60a7b5569c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/aerial_rocks_02_1k/aerial_rocks_02_1k.gltf using Guid(7e6d4d237301246a283ce60a7b5569c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc41a713924dd7e6f356055bd46e4129') in 0.005920 seconds 
+  Import took 0.011589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.509356 seconds.
+  path: Assets/Textures/aerial_rocks_02_1k/aerial_rocks_02_1k.blend
+  artifactKey: Guid(a0b69f99bb50a41a2b7bec58b0c6c74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/aerial_rocks_02_1k/aerial_rocks_02_1k.blend using Guid(a0b69f99bb50a41a2b7bec58b0c6c74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b8e6d733ed1c79b3e297348e915b68') in 0.005740 seconds 
+  Import took 0.010786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.948201 seconds.
+  path: Assets/Textures/aerial_rocks_02_1k/textures
+  artifactKey: Guid(6d7a9129970bb4a22bd8cba29c09747c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/aerial_rocks_02_1k/textures using Guid(6d7a9129970bb4a22bd8cba29c09747c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fa04193b0be42fb170140a3499eb74') in 0.004054 seconds 
+  Import took 0.009052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.502249 seconds.
+  path: Assets/Textures/aerial_rocks_02_1k/rocks
+  artifactKey: Guid(6d7a9129970bb4a22bd8cba29c09747c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/aerial_rocks_02_1k/rocks using Guid(6d7a9129970bb4a22bd8cba29c09747c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f183023bddd856ce1b8c0ef2eb6a2596') in 0.001520 seconds 
+  Import took 0.007425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.618355 seconds.
+  path: Assets/Textures/coast_sand_02_1k/textures
+  artifactKey: Guid(c297c463ccde34086a13a5ee6be1bb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/coast_sand_02_1k/textures using Guid(c297c463ccde34086a13a5ee6be1bb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41cfd5202a2d6ecc4134587b6979aa9b') in 0.001117 seconds 
+  Import took 0.005754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.998196 seconds.
+  path: Assets/Textures/coast_sand_02_1k/sand
+  artifactKey: Guid(c297c463ccde34086a13a5ee6be1bb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/coast_sand_02_1k/sand using Guid(c297c463ccde34086a13a5ee6be1bb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db66d0e7b466daf4ccc9b0cf645c0ed') in 0.001028 seconds 
+  Import took 0.006943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.793961 seconds.
+  path: Assets/Textures/coast_sand_rocks_02_1k/textures
+  artifactKey: Guid(20167b8f5e8a74a4eb11ef36dbaa2138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/coast_sand_rocks_02_1k/textures using Guid(20167b8f5e8a74a4eb11ef36dbaa2138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd151007e4d353b64a0fae06b705415fc') in 0.002046 seconds 
+  Import took 0.007728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.859765 seconds.
+  path: Assets/Textures/coast_sand_rocks_02_1k/sandrocks
+  artifactKey: Guid(20167b8f5e8a74a4eb11ef36dbaa2138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/coast_sand_rocks_02_1k/sandrocks using Guid(20167b8f5e8a74a4eb11ef36dbaa2138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1434cd149075c331724d20b56e5368') in 0.001384 seconds 
+  Import took 0.007192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.775802 seconds.
+  path: Assets/Textures/mossy_rock_1k/mossy_rock_1k.gltf
+  artifactKey: Guid(d5ad72cb807854b098960d8c799b0bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/mossy_rock_1k/mossy_rock_1k.gltf using Guid(d5ad72cb807854b098960d8c799b0bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ffb2ce98e5ab506ed2101bcb192724') in 0.003683 seconds 
+  Import took 0.009173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.367415 seconds.
+  path: Assets/Textures/mossy_rock_1k/mossy_rock_1k.blend
+  artifactKey: Guid(5b4972781291f4ccc9e7e471008adc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/mossy_rock_1k/mossy_rock_1k.blend using Guid(5b4972781291f4ccc9e7e471008adc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd969a2ec3354b941303c92743d3fef') in 0.005976 seconds 
+  Import took 0.012191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.697710 seconds.
+  path: Assets/Textures/mossy_rock_1k/textures
+  artifactKey: Guid(2cac63949e2d34963ab5cbb8da26f27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/mossy_rock_1k/textures using Guid(2cac63949e2d34963ab5cbb8da26f27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91732dab0648b77e838a532708e7b22b') in 0.001076 seconds 
+  Import took 0.006886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.961003 seconds.
+  path: Assets/Textures/mossy_rock_1k/mossyrock
+  artifactKey: Guid(2cac63949e2d34963ab5cbb8da26f27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/mossy_rock_1k/mossyrock using Guid(2cac63949e2d34963ab5cbb8da26f27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f41cc25c6c0a337ea52a72ec97636bd') in 0.000834 seconds 
+  Import took 0.005689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.150538 seconds.
+  path: Assets/Textures/coast_sand_rocks_02_1k
+  artifactKey: Guid(e0f58607618a540a1ab2ae5717e215c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/coast_sand_rocks_02_1k using Guid(e0f58607618a540a1ab2ae5717e215c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d1b8219e3493c972b913fed9308a95') in 0.004027 seconds 
+  Import took 0.010135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.134509 seconds.
+  path: Assets/Textures/ground
+  artifactKey: Guid(6057a4ea47ede4a939a797fd58635b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground using Guid(6057a4ea47ede4a939a797fd58635b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2786f50c550b67f43dfe86278f923b') in 0.000932 seconds 
+  Import took 0.007854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.533411 seconds.
+  path: Assets/Textures/3D sand.terrainlayer
+  artifactKey: Guid(f856cb8df25174d90af0d93913d2f72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D sand.terrainlayer using Guid(f856cb8df25174d90af0d93913d2f72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19446b249672768dd8eaa2fb210f89ee') in 0.008482 seconds 
+  Import took 0.014265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.804160 seconds.
+  path: Assets/Textures/3D sand 1.terrainlayer
+  artifactKey: Guid(27f6e5dd807f84d6d96dbd2a56fdc76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D sand 1.terrainlayer using Guid(27f6e5dd807f84d6d96dbd2a56fdc76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6439b5fe22bbcc07f55b9bd8343159') in 0.007063 seconds 
+  Import took 0.013625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.888188 seconds.
+  path: Assets/Textures/3D sand 2.terrainlayer
+  artifactKey: Guid(7bc6da61824e04643bad365897ae8cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D sand 2.terrainlayer using Guid(7bc6da61824e04643bad365897ae8cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb786ebed5cf48da8885520257d7926') in 0.006787 seconds 
+  Import took 0.012349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.601111 seconds.
+  path: Assets/Textures/3D sand 3.terrainlayer
+  artifactKey: Guid(8b04e47e0cd2b4aff99041cc149ce66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D sand 3.terrainlayer using Guid(8b04e47e0cd2b4aff99041cc149ce66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e16563641d38b10f0c4c181ac94de7') in 0.006725 seconds 
+  Import took 0.012313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.899045 seconds.
+  path: Assets/Textures/3D sandrocks.terrainlayer
+  artifactKey: Guid(27f6e5dd807f84d6d96dbd2a56fdc76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D sandrocks.terrainlayer using Guid(27f6e5dd807f84d6d96dbd2a56fdc76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc07c13a53c56787b70085a8f5d9474') in 0.006356 seconds 
+  Import took 0.011336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.515727 seconds.
+  path: Assets/Textures/3D mossyrocks.terrainlayer
+  artifactKey: Guid(7bc6da61824e04643bad365897ae8cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D mossyrocks.terrainlayer using Guid(7bc6da61824e04643bad365897ae8cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bbefdddad7958f8070a16d35d7b3c2') in 0.006093 seconds 
+  Import took 0.011594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.813083 seconds.
+  path: Assets/Textures/mossyrock/mossy_rock_disp_1k.png
+  artifactKey: Guid(e138a7d90aab14edca884999fb844212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/mossyrock/mossy_rock_disp_1k.png using Guid(e138a7d90aab14edca884999fb844212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cafa9d1879d174d4d36f043d9469dd8') in 0.063797 seconds 
+  Import took 0.069947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.931133 seconds.
+  path: Assets/Textures/mossyrock/mossy_rock_nor_dx_1k.exr
+  artifactKey: Guid(e7f14e08308024d7d86a445a932246ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/mossyrock/mossy_rock_nor_dx_1k.exr using Guid(e7f14e08308024d7d86a445a932246ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4594d0315c89c2dc79ec7028d88fc801') in 0.012128 seconds 
+  Import took 0.018106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.914793 seconds.
+  path: Assets/Textures/mossyrock/mossy_rock_diff_1k.jpg
+  artifactKey: Guid(7688f849fe4184d9faa19e9488e0f48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/mossyrock/mossy_rock_diff_1k.jpg using Guid(7688f849fe4184d9faa19e9488e0f48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93627a0715cd9e1db271d9a83a5dedd2') in 0.011166 seconds 
+  Import took 0.016818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.348079 seconds.
+  path: Assets/Textures/sand/coast_sand_02_diff_1k.jpg
+  artifactKey: Guid(55d5c962e7c17451a94f028754d517c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/sand/coast_sand_02_diff_1k.jpg using Guid(55d5c962e7c17451a94f028754d517c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fc2e68aff209ff77a1edb52a685ae7') in 0.013096 seconds 
+  Import took 0.018144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.809022 seconds.
+  path: Assets/Textures/sand/coast_sand_02_nor_dx_1k.exr
+  artifactKey: Guid(5e6dd6dcb9e1f45aa87fe94a07fe8793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/sand/coast_sand_02_nor_dx_1k.exr using Guid(5e6dd6dcb9e1f45aa87fe94a07fe8793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b9ab7e04487c2d3d561871d107db36') in 0.013037 seconds 
+  Import took 0.018173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.646526 seconds.
+  path: Assets/Textures/sandrocks/coast_sand_rocks_02_diff_1k.jpg
+  artifactKey: Guid(2e99ff999ec4d48e78101992b8b3a470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/sandrocks/coast_sand_rocks_02_diff_1k.jpg using Guid(2e99ff999ec4d48e78101992b8b3a470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724ca83295149fd34e1718bdbc3f51a7') in 0.011109 seconds 
+  Import took 0.016796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.905840 seconds.
+  path: Assets/Textures/sandrocks/coast_sand_rocks_02_nor_dx_1k.exr
+  artifactKey: Guid(b88a75e732fdd44d99e5ebb81920e2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/sandrocks/coast_sand_rocks_02_nor_dx_1k.exr using Guid(b88a75e732fdd44d99e5ebb81920e2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba6e8351030a529f55752abca4201e2') in 0.012067 seconds 
+  Import took 0.017324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.661017 seconds.
+  path: Assets/Textures/3D dirt.terrainlayer
+  artifactKey: Guid(da2e209be5ca744fea177d62c3719f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D dirt.terrainlayer using Guid(da2e209be5ca744fea177d62c3719f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dde04cd57153faa292809180762e95') in 0.044146 seconds 
+  Import took 0.049550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.311186 seconds.
+  path: Assets/Terrain/NewLayer 6.terrainlayer
+  artifactKey: Guid(85c6c83a56be89b45adfc35f491b4291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/NewLayer 6.terrainlayer using Guid(85c6c83a56be89b45adfc35f491b4291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209db7581fd51a158f351ac33f43d758') in 0.013747 seconds 
+  Import took 0.019867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.059297 seconds.
+  path: Assets/Terrain/NewLayer 2.terrainlayer
+  artifactKey: Guid(ad2388033455f4a42b38d5f46ce8c510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/NewLayer 2.terrainlayer using Guid(ad2388033455f4a42b38d5f46ce8c510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1609e482cbff146f4cbdc6491a9cea02') in 0.023175 seconds 
+  Import took 0.029001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.652715 seconds.
+  path: Assets/Terrain/NewLayer.terrainlayer
+  artifactKey: Guid(a2f63b51333281b429c013a575949983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/NewLayer.terrainlayer using Guid(a2f63b51333281b429c013a575949983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d7aa02cd0701de12b750b5644e4cc3') in 0.016935 seconds 
+  Import took 0.022319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.665527 seconds.
+  path: Assets/Terrain/New Terrain Layer.terrainlayer
+  artifactKey: Guid(dff41e7f524724226b7187b23dccbd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/New Terrain Layer.terrainlayer using Guid(dff41e7f524724226b7187b23dccbd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e97712ec1292a9a4f056348c264b109') in 0.012640 seconds 
+  Import took 0.018598 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006291 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.820 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2822ms)
+		BeginReloadAssembly (293ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (146ms)
+		EndReloadAssembly (2437ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (644ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (1351ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (1122ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 288.2 MB.
+System memory in use after: 284.8 MB.
+
+Unloading 103 unused Assets to reduce memory usage. Loaded Objects now: 2931.
+Total: 10.632637 ms (FindLiveObjects: 0.294275 ms CreateObjectMapping: 0.108256 ms MarkObjects: 7.696914 ms  DeleteObjects: 2.531785 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
