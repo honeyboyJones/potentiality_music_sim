@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="UserProjectSettings" SchemaVersion="103">
+	<UserProjectSettingsInfo>
+		<UserProjectSettings Name="" ID="{D4A9AE3E-1047-4628-B418-2B6368496C8F}">
+			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Development\music_gameplay\potentiality_sim\"/>
+				<Property Name="Event Action List\{489AA2D6-A386-49DB-B24E-26316AD75E9F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{55B15E55-63F0-42C2-966F-FF27A38E4887}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B478333A-7379-45B4-8015-E6E11AFF7DD3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="ExternalSourcesInputPath" Type="string">
+					<ValueList>
+						<Value Platform="Mac"></Value>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="ExternalSourcesOutputPath" Type="string">
+					<ValueList>
+						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+					</ValueList>
+				</Property>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
+				<Property Name="Interactive Music\x64_{2A942B0F-6D51-4A83-9707-F5AE7CEE75D2} - SegmentEditorZoomInfo" Type="string" Value="b9GgoSsQ4j8AAAAAAADwP6uqqqqqGjVAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{79DF67F8-C3FA-4E3C-B4D5-B9C6A4695E0A} - SegmentEditorZoomInfo" Type="string" Value="CUrvkspr4D8AAAAAAADwP6uqqqqqGjVAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{E2C63DA6-0AB2-4FBA-A736-D3E290FC655F} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPzt6z8JbWTRAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
+				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
+				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{5BC64B27-8D35-498F-AA33-7735B8F39E50}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{5BC64B27-8D35-498F-AA33-7735B8F39E50}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{96A04539-2FA3-43D4-9ED6-9CE72D6FFF3E}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{96A04539-2FA3-43D4-9ED6-9CE72D6FFF3E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{9FF43991-C04B-47C6-9304-D8C6743A8A81}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{9FF43991-C04B-47C6-9304-D8C6743A8A81}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{A3EED8EF-1807-46F4-A943-6DD2156C5D2B}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{A3EED8EF-1807-46F4-A943-6DD2156C5D2B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{A41D5860-E45A-4574-81AC-DEC35C362477}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{A41D5860-E45A-4574-81AC-DEC35C362477}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{D8A17746-5487-47AE-867C-5E4DB00C8BD6}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{D8A17746-5487-47AE-867C-5E4DB00C8BD6}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{D92FF6AA-67A4-4F2B-889F-82FF8CB6B365}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{D92FF6AA-67A4-4F2B-889F-82FF8CB6B365}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{F67E91EB-6AC5-4C67-93AA-43E91D853909}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{F67E91EB-6AC5-4C67-93AA-43E91D853909}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{FA924871-3FEA-401A-91E4-96BEC0C02E13}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{FA924871-3FEA-401A-91E4-96BEC0C02E13}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{FDDBA897-7D20-441B-8282-52968514EBB4}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{FDDBA897-7D20-441B-8282-52968514EBB4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
+				<Property Name="SoundBankPaths" Type="string">
+					<ValueList>
+						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
+					<ValueList>
+						<Value Platform="Mac">Copy Streamed Files</Value>
+						<Value Platform="Windows">Copy Streamed Files</Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
+					<ValueList>
+						<Value Platform="Mac">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
+						<Value Platform="Windows">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
+					<ValueList>
+						<Value Platform="Mac"></Value>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
+					<ValueList>
+						<Value Platform="Mac"></Value>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+			</PropertyList>
+		</UserProjectSettings>
+	</UserProjectSettingsInfo>
+</WwiseDocument>
