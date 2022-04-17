@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="544303064">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1916025934">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2416386526" Language="SFX" Hash="1628475546">
+		<SoundBank Id="2416386526" Language="SFX" Hash="3329200462">
 			<ObjectPath>\SoundBanks\Default Work Unit\Proteusque</ObjectPath>
 			<ShortName>Proteusque</ShortName>
 			<Path>Proteusque.bnk</Path>
@@ -26,6 +26,10 @@
 						<File Id="99995859" Language="SFX">
 							<ShortName>a 125 drums.wav</ShortName>
 							<Path>SFX/a 125 drums_9EDFC787.wem</Path>
+						</File>
+						<File Id="127816462" Language="SFX">
+							<ShortName>night wind.wav</ShortName>
+							<Path>SFX/night wind_9EDFC787.wem</Path>
 						</File>
 						<File Id="169341196" Language="SFX">
 							<ShortName>a underprepared piano.wav</ShortName>
@@ -38,6 +42,10 @@
 						<File Id="643178130" Language="SFX">
 							<ShortName>b freestyle drums.wav</ShortName>
 							<Path>SFX/b freestyle drums_9EDFC787.wem</Path>
+						</File>
+						<File Id="692999978" Language="SFX">
+							<ShortName>night celeste.wav</ShortName>
+							<Path>SFX/night celeste_9EDFC787.wem</Path>
 						</File>
 						<File Id="694377172" Language="SFX">
 							<ShortName>b petrichor.wav</ShortName>
@@ -59,6 +67,10 @@
 							<ShortName>a esotaric garden.wav</ShortName>
 							<Path>SFX/a esotaric garden_9EDFC787.wem</Path>
 						</File>
+						<File Id="1008718221" Language="SFX">
+							<ShortName>night choir.wav</ShortName>
+							<Path>SFX/night choir_9EDFC787.wem</Path>
+						</File>
 						<File Id="1035207865" Language="SFX">
 							<ShortName>b deep combined.wav</ShortName>
 							<Path>SFX/b deep combined_9EDFC787.wem</Path>
@@ -72,30 +84,42 @@
 						<SwitchContainer SwitchValue="{4F0CCC5F-3897-4C7B-B1F9-C016313DA5B8}">
 							<Media>
 								<File Id="99995859"/>
+								<File Id="127816462"/>
 								<File Id="169341196"/>
 								<File Id="186813801"/>
+								<File Id="692999978"/>
 								<File Id="704863765"/>
 								<File Id="805983013"/>
+								<File Id="1008718221"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{3F88B34E-4FAE-412A-A527-8078BC26C379}">
 							<Media>
+								<File Id="127816462"/>
 								<File Id="643178130"/>
+								<File Id="692999978"/>
 								<File Id="694377172"/>
+								<File Id="1008718221"/>
 								<File Id="1035207865"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{D46F03EA-FB71-4EBA-BA95-562A1CA682F5}">
 							<Media>
+								<File Id="127816462"/>
+								<File Id="692999978"/>
 								<File Id="708064526"/>
 								<File Id="776986685"/>
+								<File Id="1008718221"/>
 								<File Id="1071767067"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{07A40000-4028-4B51-B1FE-07D67350A62E}">
 							<Media>
+								<File Id="127816462"/>
+								<File Id="692999978"/>
 								<File Id="708064526"/>
 								<File Id="776986685"/>
+								<File Id="1008718221"/>
 								<File Id="1071767067"/>
 							</Media>
 						</SwitchContainer>
@@ -129,6 +153,7 @@
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="2243460727" Name="PlayerHeight" ObjectPath="\Game Parameters\Default Work Unit\PlayerHeight"/>
+				<GameParameter Id="3729505769" Name="TimeOfDay" ObjectPath="\Game Parameters\Default Work Unit\TimeOfDay"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="1374134669" Name="Region" ObjectPath="\States\Default Work Unit\Region" GUID="{5CDB31AD-2841-4B33-B0A1-F778FA538AAE}">
@@ -137,6 +162,7 @@
 						<State Id="4147287986" Name="Green" ObjectPath="\States\Default Work Unit\Region\Green" GUID="{4F0CCC5F-3897-4C7B-B1F9-C016313DA5B8}"/>
 						<State Id="3987849186" Name="Magenta" ObjectPath="\States\Default Work Unit\Region\Magenta" GUID="{3F88B34E-4FAE-412A-A527-8078BC26C379}"/>
 						<State Id="3036078039" Name="Purple" ObjectPath="\States\Default Work Unit\Region\Purple" GUID="{D46F03EA-FB71-4EBA-BA95-562A1CA682F5}"/>
+						<State Id="1011622525" Name="Night" ObjectPath="\States\Default Work Unit\Region\Night" GUID="{99A64A29-9325-4EAC-AE01-EB354D491FAA}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>

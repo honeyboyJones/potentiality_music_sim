@@ -10,6 +10,12 @@
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="PlayerSpeed" ID="{BA828372-9FE9-4FFC-A80F-C725ADFEEDDC}"/>
+				<GameParameter Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="12"/>
+						<Property Name="Max" Type="Real64" Value="24"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

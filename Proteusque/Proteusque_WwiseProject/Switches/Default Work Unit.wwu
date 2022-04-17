@@ -8,6 +8,7 @@
 						<Switch Name="Green" ID="{3A598381-C7BD-4BFF-9366-934A21A43582}"/>
 						<Switch Name="Magenta" ID="{24746EEF-847B-4336-9FB4-F2885443F179}"/>
 						<Switch Name="Purple" ID="{083BA914-C395-4873-8240-E60C13EA2274}"/>
+						<Switch Name="Night" ID="{A4B5A571-E249-4A88-BAF9-3D07D92DD316}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

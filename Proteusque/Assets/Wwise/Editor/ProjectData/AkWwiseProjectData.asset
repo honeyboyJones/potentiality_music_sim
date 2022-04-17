@@ -193,7 +193,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: 61898f9d9e3eed4f96e57f9765e4ba2e
     GuidInternal: 
-    m_lastTime: -8585519787364775808
+    m_lastTime: -8585513887894775808
     List:
     - name: PlayerHeight
       guid: 1ffa9e0a012671408064673431e84428
@@ -223,6 +223,20 @@ MonoBehaviour:
         ObjectType: 13
         guid: 728382bae99ffc4fa80fc725adfeeddc
       Path: Game Parameters/Default Work Unit/PlayerSpeed
+    - name: TimeOfDay
+      guid: eb879d5516e3b4488f9d491e4adee3e4
+      id: 3729505769
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 61898f9d9e3eed4f96e57f9765e4ba2e
+      - ElementName: TimeOfDay
+        ObjectType: 13
+        guid: eb879d5516e3b4488f9d491e4adee3e4
+      Path: Game Parameters/Default Work Unit/TimeOfDay
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
@@ -235,7 +249,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: d4a235ad7fd2a84ca586f1d37653ab2b
     GuidInternal: 
-    m_lastTime: -8585524948204775808
+    m_lastTime: -8585513852184775808
     List:
     - name: Region
       guid: ad31db5c4128334bb0a1f778fa538aae
@@ -284,6 +298,22 @@ MonoBehaviour:
         - ElementName: Magenta
           ObjectType: 8
           guid: 4eb3883fae4f2a41a5278078bc26c379
+      - name: Night
+        guid: 294aa6992593ac4eae01eb354d491faa
+        id: 1011622525
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d4a235ad7fd2a84ca586f1d37653ab2b
+        - ElementName: Region
+          ObjectType: 9
+          guid: ad31db5c4128334bb0a1f778fa538aae
+        - ElementName: Night
+          ObjectType: 8
+          guid: 294aa6992593ac4eae01eb354d491faa
       - name: None
         guid: 0000a4072840514bb1fe07d67350a62e
         id: 748895195
@@ -331,7 +361,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: a03b7f4b8f45af418d251643e0110661
     GuidInternal: 
-    m_lastTime: -8585524948204775808
+    m_lastTime: -8585513852184775808
     List:
     - name: Region
       guid: 64b65c22d9d5f54696255a0e335581b4
@@ -380,6 +410,22 @@ MonoBehaviour:
         - ElementName: Magenta
           ObjectType: 10
           guid: ef6e74247b8436439fb4f2885443f179
+      - name: Night
+        guid: 71a5b5a449e2884abaf93d07d92dd316
+        id: 1011622525
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a03b7f4b8f45af418d251643e0110661
+        - ElementName: Region
+          ObjectType: 11
+          guid: 64b65c22d9d5f54696255a0e335581b4
+        - ElementName: Night
+          ObjectType: 10
+          guid: 71a5b5a449e2884abaf93d07d92dd316
       - name: Purple
         guid: 14a93b0895c373488240e60c13ea2274
         id: 3036078039
@@ -427,8 +473,8 @@ MonoBehaviour:
         ObjectType: 14
         guid: 9cf261b5bf4dfc4bb17dd7b5e2ee3e08
       Path: Triggers/Default Work Unit/ProteusqueTrigger1
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedFileSystemItemIds: 0400000005000000170000001a0000002000000021000000
+  ExpandedWaapiItemIds: 0c0000000d0000000e0000001800000019000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

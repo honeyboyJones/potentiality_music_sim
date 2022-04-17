@@ -10,29 +10,34 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	748895195	None	Region			
+	1011622525	Night	Region			
 	3036078039	Purple	Region			
 	3987849186	Magenta	Region			
 	4147287986	Green	Region			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2243460727	PlayerHeight			\Default Work Unit\PlayerHeight	
+	3729505769	TimeOfDay			\Default Work Unit\TimeOfDay	
 
 Trigger	ID	Name			Wwise Object Path	Notes
 	4193390955	ProteusqueTrigger1			\Default Work Unit\ProteusqueTrigger1	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	99995859	ProteusqueStems Area1Drums	Y:\Development\music_gameplay\potentiality_music_sim\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\a 125 drums_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\GreenLand\GreenMusic\ProteusqueStems Area1Drums		2333981
+	127816462	night wind	Y:\Development\music_gameplay\potentiality_music_sim\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\night wind_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\GreenLand\GreenMusic\night wind		2738959
 	169341196	a underprepared piano	Y:\Development\music_gameplay\potentiality_music_sim\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\a underprepared piano_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\GreenLand\GreenMusic\a underprepared piano		1816409
 	186813801	a humanoid pad	Y:\Development\music_gameplay\potentiality_music_sim\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\a humanoid pad_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\GreenLand\GreenMusic\a humanoid pad		1945297
 	392506269	ProteusqueSpatialLoop3	Y:\Development\music_gameplay\potentiality_music_sim\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\a rando_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\ProteusqueSpatialLoop3		2072644
 	614186669	ProteusqueSpatialLoop2	Y:\Development\music_gameplay\potentiality_music_sim\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\b wind birds_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\ProteusqueSpatialLoop2		2249089
 	643178130	ProteusqueStems Area2Drums	Y:\Development\music_gameplay\potentiality_music_sim\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\b freestyle drums_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\MagentaLand\MagentaMusic\ProteusqueStems Area2Drums		2348369
+	692999978	night celeste	Y:\Development\music_gameplay\potentiality_music_sim\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\night celeste_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\GreenLand\GreenMusic\night celeste		2951716
 	694377172	ProteusqueStems Area2Melody	Y:\Development\music_gameplay\potentiality_music_sim\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\b petrichor_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\MagentaLand\MagentaMusic\ProteusqueStems Area2Melody		2724159
 	704863765	ProteusqueStems Area1Harmony	Y:\Development\music_gameplay\potentiality_music_sim\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\a deep fjord_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\GreenLand\GreenMusic\ProteusqueStems Area1Harmony		1596777
 	708064526	ProteusqueStems Area3-1	Y:\Development\music_gameplay\potentiality_music_sim\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\c rain drums_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\PurpleLand\PurpleMusic\ProteusqueStems Area3-1		2344642
 	776986685	c airy combined	Y:\Development\music_gameplay\potentiality_music_sim\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\c airy combined_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\PurpleLand\PurpleMusic\c airy combined		2018639
 	805983013	ProteusqueStems Area1Melody	Y:\Development\music_gameplay\potentiality_music_sim\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\a esotaric garden_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\GreenLand\GreenMusic\ProteusqueStems Area1Melody		2168862
 	955429204	ProteusqueSpatialLoop1	Y:\Development\music_gameplay\potentiality_music_sim\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\c whale song_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\ProteusqueSpatialLoop1		1586477
+	1008718221	night choir	Y:\Development\music_gameplay\potentiality_music_sim\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\night choir_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\GreenLand\GreenMusic\night choir		2596799
 	1035207865	ProteusqueStems Area2Harmony	Y:\Development\music_gameplay\potentiality_music_sim\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\b deep combined_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\MagentaLand\MagentaMusic\ProteusqueStems Area2Harmony		1788614
 	1071767067	c deep combined	Y:\Development\music_gameplay\potentiality_music_sim\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\c deep combined_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\PurpleLand\PurpleMusic\c deep combined		2016578
 

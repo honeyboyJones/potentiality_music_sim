@@ -30,6 +30,7 @@ namespace AK
             {
                 static const AkUniqueID GREEN = 4147287986U;
                 static const AkUniqueID MAGENTA = 3987849186U;
+                static const AkUniqueID NIGHT = 1011622525U;
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID PURPLE = 3036078039U;
             } // namespace STATE
@@ -47,6 +48,7 @@ namespace AK
             {
                 static const AkUniqueID GREEN = 4147287986U;
                 static const AkUniqueID MAGENTA = 3987849186U;
+                static const AkUniqueID NIGHT = 1011622525U;
                 static const AkUniqueID PURPLE = 3036078039U;
             } // namespace SWITCH
         } // namespace REGION
@@ -57,6 +59,7 @@ namespace AK
     {
         static const AkUniqueID PLAYERHEIGHT = 2243460727U;
         static const AkUniqueID PLAYERSPEED = 1493153371U;
+        static const AkUniqueID TIMEOFDAY = 3729505769U;
     } // namespace GAME_PARAMETERS
 
     namespace TRIGGERS

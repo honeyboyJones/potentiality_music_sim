@@ -10,5 +10,7 @@ public class PlayerElevationToWwise : MonoBehaviour
     void Update()
     {
         playerElevationParam.SetGlobalValue(transform.position.y);
+
+        print("Player Elevation is " + playerElevationParam);
     }
 }

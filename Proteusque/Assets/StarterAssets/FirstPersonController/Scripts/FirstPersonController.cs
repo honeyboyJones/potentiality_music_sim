@@ -99,7 +99,7 @@ namespace StarterAssets
 			Move();
 		}
 
-		private void LateUpdate()
+		private void FixedUpdate()
 		{
 			CameraRotation();
 		}
