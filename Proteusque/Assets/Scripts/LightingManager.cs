@@ -18,7 +18,7 @@ public class LightingManager : MonoBehaviour
 
     private void Start()
     {
-        TimeOfDay = 12f;    
+        TimeOfDay = 15f;    
     }
 
     private void Update()

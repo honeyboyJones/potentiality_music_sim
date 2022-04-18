@@ -30,53 +30,6 @@
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="184685.736961451"/>
 										<Property Name="Tempo" Type="Real64" Value="100"/>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{00FCBF46-D3A3-4A0A-A9E1-3A67C5A2AD5C}" ShortID="317561426">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{C573D260-A694-409A-A082-15B03A439CD8}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-																<SegmentShape>SCurve</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>5.97998</XPos>
-																<YPos>-0.89934</YPos>
-																<Flags>0</Flags>
-																<SegmentShape>SCurve</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>12.09773</XPos>
-																<YPos>-0.74284</YPos>
-																<Flags>0</Flags>
-																<SegmentShape>SCurve</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>18.08999</XPos>
-																<YPos>-0.74284</YPos>
-																<Flags>0</Flags>
-																<SegmentShape>SCurve</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>24</XPos>
-																<YPos>-200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -109,14 +62,69 @@
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>13.56112</XPos>
-																		<YPos>-3.22191</YPos>
+																		<XPos>61.75179</XPos>
+																		<YPos>-3.01632</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>SCurve</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>30</XPos>
+																		<XPos>90</XPos>
 																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+														<RTPC Name="" ID="{3F819A3E-A33E-4615-9689-C6314D1244B0}" ShortID="709566141">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{049B4E9A-CAB3-4869-A4F5-FB5009A99F63}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>6</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>12</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>18</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>-200</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -175,6 +183,67 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="ProteusqueStems Area1Harmony" ID="{9FF43991-C04B-47C6-9304-D8C6743A8A81}" ShortID="743155484">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{6489180C-8B4E-4FA4-A5B1-1716C0F9AA64}" ShortID="65186104">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{79192A9B-5A34-45CC-A0C3-0EE68B685EF1}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>6</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>12</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>18</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
@@ -246,12 +315,12 @@
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>9.81693</XPos>
+																		<XPos>29.45079</XPos>
 																		<YPos>1</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>30</XPos>
+																		<XPos>90</XPos>
 																		<YPos>-1</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -279,13 +348,68 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>12.837528604119</XPos>
+																		<XPos>38.512585812357</XPos>
 																		<YPos>-7.37279660867846</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>30</XPos>
+																		<XPos>90</XPos>
 																		<YPos>-1.88074</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+														<RTPC Name="" ID="{42A834F2-9BCE-4E7F-9397-9C2D4F29F1DE}" ShortID="95329334">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{FA0D5AD3-9AD0-4A53-90FE-161FFBB323A6}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>6</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>12</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>18</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>-200</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -347,6 +471,61 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
+														<RTPC Name="" ID="{CF8A5E3B-8BBB-47E1-8B3E-42C4B2BD03DC}" ShortID="1033765448">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{0B506675-27E2-4CCB-B5E8-20B2C444A5DC}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>6</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>12</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>18</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
 														<RTPC Name="" ID="{5E5F85EE-2602-48C4-8D55-3BDB27746A1B}" ShortID="647570005">
 															<ReferenceList>
 																<Reference Name="ControlInput">
@@ -364,12 +543,12 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>9.97296</XPos>
-																		<YPos>-4.52769</YPos>
+																		<XPos>61.03533</XPos>
+																		<YPos>-2.39453</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>30</XPos>
+																		<XPos>90</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -450,13 +629,72 @@
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>6.6511</XPos>
+																		<XPos>19.9533</XPos>
 																		<YPos>2</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>30</XPos>
+																		<XPos>90</XPos>
 																		<YPos>-1</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{027D0B6F-EA84-4E9F-9EB9-3ACF548ADBC9}" ShortID="575473645">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{668155A6-E762-495E-83BB-B36E1199F41F}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>6</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>12</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>18</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>-200</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -514,6 +752,348 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
+										<MusicTrack Name="night celeste" ID="{9518F84E-53A5-4057-B6C3-3EFD92079366}" ShortID="325413911">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{0064DBFF-D98F-4B56-9778-55C65889450B}" ShortID="499216606">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{944885B8-3220-40CE-BA1D-73FBA33DC3C7}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>6</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>12.04004</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>18</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="night celeste" ID="{8CEC5712-F7F8-4F01-878D-9E6B513630CB}">
+													<Language>SFX</Language>
+													<AudioFile>night celeste.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="692999978"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{9A88084F-CD5F-411E-A645-128A9A96FE05}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{2B318053-C6DB-4F18-B471-1FDA5BE4B51D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="night celeste" ID="{01E44368-A90C-4839-BA0F-4B8D50C8D682}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="182857.142857143"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="night celeste" ID="{8CEC5712-F7F8-4F01-878D-9E6B513630CB}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="night choir" ID="{E0BC483F-5949-4E38-8D43-70DB965CAE6B}" ShortID="333851689">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{8E8748D6-D44B-4966-9446-BFCE0DD06947}" ShortID="368536309">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{2CDFD0AB-3A21-4EF7-8021-05357B4C388C}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>6</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>12.04004</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>18</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="night choir" ID="{9FA9CD2F-D4EB-423A-B82B-23469462D5DB}">
+													<Language>SFX</Language>
+													<AudioFile>night choir.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1008718221"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{149C2952-FB24-491C-9797-F2A43B1BBCE9}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{476767F2-E5D3-466E-99FC-EB1A7DF3C4DC}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="night choir" ID="{0754C491-3B2C-4E6C-A9F0-EE762F8DFB5C}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="182857.142857143"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="night choir" ID="{9FA9CD2F-D4EB-423A-B82B-23469462D5DB}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="night wind" ID="{9C1BB1AA-8266-43B3-8D3A-FC87BC90B442}" ShortID="556385487">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{F7F1FE73-5718-4AD0-A20D-7D1FA565C30C}" ShortID="647463514">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{531735D7-7A83-40DE-B37C-BB55D42EE6EA}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>6</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>12.04004</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>18</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="night wind" ID="{19DBF703-1F91-48D3-AD18-9E58A16C0020}">
+													<Language>SFX</Language>
+													<AudioFile>night wind.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="127816462"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{5803232D-F5DA-4D49-9C34-F2C97A142B9F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{97C10FD6-FA4B-429B-B2E5-9083B1B7D403}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="night wind" ID="{B82F8C3D-DF21-4978-A90C-E6FEF6CCDF97}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="182857.142857143"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="night wind" ID="{19DBF703-1F91-48D3-AD18-9E58A16C0020}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
 									</ChildrenList>
 									<ObjectLists>
 										<ObjectList Name="Cues">
@@ -542,6 +1122,11 @@
 								<MusicSegment Name="NightMusic" ID="{4D24E436-3311-4562-8BFE-5F9931E0563A}" ShortID="145052661">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="182857.142857143"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Tempo" Type="Real64" Value="105"/>
 									</PropertyList>
 									<ReferenceList>
@@ -809,12 +1394,12 @@
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>10.1775</XPos>
+																		<XPos>30.5325</XPos>
 																		<YPos>82</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>30</XPos>
+																		<XPos>90</XPos>
 																		<YPos>23</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -843,25 +1428,25 @@
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>5.96704</XPos>
-																		<YPos>-7.91802</YPos>
+																		<XPos>52.90712</XPos>
+																		<YPos>-3.96798</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>30</XPos>
-																		<YPos>-2.89187000000001</YPos>
+																		<XPos>90</XPos>
+																		<YPos>-0.77005</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
 															</Curve>
 														</RTPC>
-														<RTPC Name="" ID="{D3526234-2552-491D-B22C-70564D12445D}" ShortID="321180908">
+														<RTPC Name="" ID="{E3263233-E387-41CA-8B14-B3A0349A0A67}" ShortID="888439316">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{FD79B817-A26B-4629-BD29-947CD24C880F}">
+															<Curve Name="" ID="{882A0E37-900F-423E-83CC-A4695529D5FA}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
@@ -873,6 +1458,12 @@
 																		<SegmentShape>SCurve</SegmentShape>
 																	</Point>
 																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
 																		<XPos>6</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
@@ -880,13 +1471,13 @@
 																	</Point>
 																	<Point>
 																		<XPos>12</XPos>
-																		<YPos>-0</YPos>
+																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>SCurve</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>18</XPos>
-																		<YPos>-0</YPos>
+																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>SCurve</SegmentShape>
 																	</Point>
@@ -978,6 +1569,12 @@
 																		<SegmentShape>SCurve</SegmentShape>
 																	</Point>
 																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
 																		<XPos>6</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
@@ -985,13 +1582,13 @@
 																	</Point>
 																	<Point>
 																		<XPos>12</XPos>
-																		<YPos>-0</YPos>
+																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>SCurve</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>18</XPos>
-																		<YPos>-0</YPos>
+																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>SCurve</SegmentShape>
 																	</Point>
@@ -1083,25 +1680,25 @@
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>8.6315</XPos>
+																		<XPos>25.8945</XPos>
 																		<YPos>-3.33735</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>30</XPos>
+																		<XPos>90</XPos>
 																		<YPos>-2.89187000000001</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
 															</Curve>
 														</RTPC>
-														<RTPC Name="" ID="{FA10D697-72AE-42D9-9F84-C71719F8B2C7}" ShortID="129289717">
+														<RTPC Name="" ID="{7ABE012A-5525-457B-A5EE-E73AD6FA8BBD}" ShortID="1068073154">
 															<ReferenceList>
 																<Reference Name="ControlInput">
 																	<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
 																</Reference>
 															</ReferenceList>
-															<Curve Name="" ID="{3C70A592-8256-433C-9A1B-065E1263DBFB}">
+															<Curve Name="" ID="{AA1096D7-F2B8-4430-BA73-BF15B875FFB4}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
@@ -1113,6 +1710,12 @@
 																		<SegmentShape>SCurve</SegmentShape>
 																	</Point>
 																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
 																		<XPos>6</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
@@ -1120,13 +1723,13 @@
 																	</Point>
 																	<Point>
 																		<XPos>12</XPos>
-																		<YPos>-0</YPos>
+																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>SCurve</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>18</XPos>
-																		<YPos>-0</YPos>
+																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>SCurve</SegmentShape>
 																	</Point>
@@ -1213,12 +1816,18 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-0.453280000000007</YPos>
+																		<YPos>0</YPos>
 																		<Flags>5</Flags>
 																		<SegmentShape>SCurve</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>5.97998</XPos>
+																		<XPos>4</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>6</XPos>
 																		<YPos>-200</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>SCurve</SegmentShape>
@@ -1243,7 +1852,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>24</XPos>
-																		<YPos>-0</YPos>
+																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -1304,6 +1913,234 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
+										<MusicTrack Name="night choir" ID="{20976FF9-16A6-43B4-AF92-141C8C43854E}" ShortID="1025344693">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{B65FFEE2-19F3-4BDA-9C5F-48BAFDD0B19B}" ShortID="764242550">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{B054A3AC-633A-46BE-B5CE-353121F9B09F}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>6</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>12.04004</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>18</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="night choir" ID="{09510A8E-C7D5-42A0-A406-08118DBEB155}">
+													<Language>SFX</Language>
+													<AudioFile>night choir.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1008718221"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E6F8312F-2115-4776-B884-A99EFD4173EB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{7F30FE24-6035-4AB8-B5F1-CD37A2572454}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="night choir" ID="{D2846C07-8D61-4B2E-AC77-FCA7B4BEDF93}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="182857.142857143"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="night choir" ID="{09510A8E-C7D5-42A0-A406-08118DBEB155}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="night wind" ID="{1C6A21B0-B6A7-4FCF-A5B8-3508B252411D}" ShortID="473189245">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{BEBC5484-96D3-4B65-AA8B-8BBC0C86582E}" ShortID="181359943">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{991DECDA-28C9-4454-9D1C-92027507468B}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>6</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>12.04004</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>18</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="night wind" ID="{578C7770-89F0-4B8F-AAB0-6168E5D12C3E}">
+													<Language>SFX</Language>
+													<AudioFile>night wind.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="127816462"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4781089A-AE0F-49B8-89BD-B6C7735047D0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{6D62A7C4-62A8-4C79-A14F-354F12E14ACE}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="night wind" ID="{3A275A23-F1A9-4F9A-B1E8-A3C5F906FC5A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="182857.142857143"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="night wind" ID="{578C7770-89F0-4B8F-AAB0-6168E5D12C3E}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
 									</ChildrenList>
 									<ObjectLists>
 										<ObjectList Name="Cues">
@@ -1328,6 +2165,11 @@
 								<MusicSegment Name="NightMusic" ID="{69A93EC2-ECAF-4F59-8BFD-4B521EFD67A5}" ShortID="407030210">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="182857.142857143"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Tempo" Type="Real64" Value="105"/>
 										<Property Name="Volume" Type="Real64">
 											<RTPCList>
@@ -1368,13 +2210,13 @@
 															</Point>
 															<Point>
 																<XPos>20</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>0</Flags>
 																<SegmentShape>SCurve</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>24</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -1616,53 +2458,6 @@
 								<MusicSegment Name="MagentaMusic" ID="{2A942B0F-6D51-4A83-9707-F5AE7CEE75D2}" ShortID="473589684">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="191345.34927542"/>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{C7F9D92D-8F7B-4E56-BF9B-9EA62B6CEC54}" ShortID="626424615">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{E54E56F0-A20E-4305-B4A9-AA5D392B91DF}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-																<SegmentShape>SCurve</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>5.97998</XPos>
-																<YPos>-0.899339999999995</YPos>
-																<Flags>0</Flags>
-																<SegmentShape>SCurve</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>12.09773</XPos>
-																<YPos>-0.742840000000001</YPos>
-																<Flags>0</Flags>
-																<SegmentShape>SCurve</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>18.08999</XPos>
-																<YPos>-0.742840000000001</YPos>
-																<Flags>0</Flags>
-																<SegmentShape>SCurve</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>24</XPos>
-																<YPos>-200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1695,12 +2490,12 @@
 																		<SegmentShape>Exp2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>6.34959</XPos>
+																		<XPos>19.04877</XPos>
 																		<YPos>5</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>30</XPos>
+																		<XPos>90</XPos>
 																		<YPos>-1</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -1711,6 +2506,61 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<RTPCList>
+														<RTPC Name="" ID="{5B5FD35C-7B2E-41C2-8DEA-29BD55FE434E}" ShortID="7217006">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{15A0E0FD-CFCC-4C6E-A66E-8BCA5AE84C7A}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>6</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>12</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>18</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
 														<RTPC Name="" ID="{EFD51CF9-9537-449D-8BC0-549AE93B933C}" ShortID="1056860504">
 															<ReferenceList>
 																<Reference Name="ControlInput">
@@ -1729,12 +2579,12 @@
 																		<SegmentShape>Exp3</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>12.60021</XPos>
-																		<YPos>-6.59512</YPos>
+																		<XPos>51.95429</XPos>
+																		<YPos>-5.72037</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>30</XPos>
+																		<XPos>90</XPos>
 																		<YPos>-2.89187</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -1794,6 +2644,67 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="ProteusqueStems Area2Harmony" ID="{F67E91EB-6AC5-4C67-93AA-43E91D853909}" ShortID="794737845">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{F969A5E4-A5C0-496A-A0E8-0C6D42699454}" ShortID="192263467">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{C78B412E-C7E9-4D63-B2F1-FA2B3DD80825}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>6</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>12</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>18</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
@@ -1865,13 +2776,68 @@
 																		<SegmentShape>Log2</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>5.01144</XPos>
+																		<XPos>15.03432</XPos>
 																		<YPos>-4.67069</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>30</XPos>
+																		<XPos>90</XPos>
 																		<YPos>-4.54007</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+														<RTPC Name="" ID="{7235FCF5-0E62-4955-9343-A0C3816F885C}" ShortID="932539371">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{2E8A1F44-56C6-49C1-9715-F765AC33F0EF}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>6</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>12</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>18</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>-200</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -1929,6 +2895,348 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
+										<MusicTrack Name="night celeste" ID="{943D00D7-4548-4750-9077-EFA6A2FFCBF3}" ShortID="938442796">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{8E1E1E79-3DD3-46C1-8AB3-A856C49033CD}" ShortID="877541392">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{4DEABB0B-469E-475C-B41C-C0B2F02EC2EF}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>6</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>12.04004</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>18</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="night celeste" ID="{1F47FA4A-183C-4E66-B6DA-4C95BA65E5EC}">
+													<Language>SFX</Language>
+													<AudioFile>night celeste.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="692999978"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{21099F41-C5FE-4E56-B253-EA2BE80DE9E2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9C3607B2-1493-4475-88FF-6415A1FDF0E1}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="night celeste" ID="{C5AB035A-C9F3-4436-AC7D-C96591D54075}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="182857.142857143"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="night celeste" ID="{1F47FA4A-183C-4E66-B6DA-4C95BA65E5EC}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="night choir" ID="{EC62A0BA-F942-47AD-991F-1E64AAA37E6E}" ShortID="707992550">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{3B148B99-4CD7-4692-93EC-C4FDFD8E2FAD}" ShortID="340568442">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{442094F6-8B94-462B-A32F-8DAEB91016FC}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>6</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>12.04004</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>18</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="night choir" ID="{41F7B50C-5701-4DB0-82D4-0C7B94F06159}">
+													<Language>SFX</Language>
+													<AudioFile>night choir.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1008718221"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{AD9E2C09-8261-4A0C-A616-7D0FC468C473}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9A69D691-9979-407E-94AD-9FEE9CD64B2D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="night choir" ID="{1DC336DE-EF8D-49B9-B984-2E4B46004040}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="182857.142857143"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="night choir" ID="{41F7B50C-5701-4DB0-82D4-0C7B94F06159}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="night wind" ID="{FF346C5A-5A81-4048-B9F8-99702C68E1A9}" ShortID="192485731">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{DB052F7B-FD15-4953-B4AC-A13AD4D8F100}" ShortID="88821430">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="TimeOfDay" ID="{559D87EB-E316-48B4-8F9D-491E4ADEE3E4}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{35328500-4112-44D6-80C0-62A2BEDE2430}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>4</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>6</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>12.04004</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>18</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>24</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="night wind" ID="{52890166-5143-4F8B-809D-ECF5DA61A969}">
+													<Language>SFX</Language>
+													<AudioFile>night wind.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="127816462"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{410B7EDB-5A3C-489C-95BE-4ED217F44F9B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{F187CD06-00DC-4DF3-9F32-9D566C400759}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="night wind" ID="{9606910A-8CA5-4108-9CCD-96D0B9B0599B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="182857.142857143"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="night wind" ID="{52890166-5143-4F8B-809D-ECF5DA61A969}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
 									</ChildrenList>
 									<ObjectLists>
 										<ObjectList Name="Cues">
@@ -1953,6 +3261,11 @@
 								<MusicSegment Name="NightMusic" ID="{5D8E5353-2512-40AA-AB97-457CCE050081}" ShortID="365463165">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="182857.142857143"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

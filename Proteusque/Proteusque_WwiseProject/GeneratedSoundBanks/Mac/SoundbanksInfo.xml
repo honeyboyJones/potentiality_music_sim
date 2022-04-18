@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2416386526" Language="SFX" Hash="3329200462">
+		<SoundBank Id="2416386526" Language="SFX" Hash="171875019">
 			<ObjectPath>\SoundBanks\Default Work Unit\Proteusque</ObjectPath>
 			<ShortName>Proteusque</ShortName>
 			<Path>Proteusque.bnk</Path>
