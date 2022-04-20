@@ -10,6 +10,7 @@
 						<State Name="Magenta" ID="{3F88B34E-4FAE-412A-A527-8078BC26C379}"/>
 						<State Name="Purple" ID="{D46F03EA-FB71-4EBA-BA95-562A1CA682F5}"/>
 						<State Name="Night" ID="{99A64A29-9325-4EAC-AE01-EB354D491FAA}"/>
+						<State Name="Ocean" ID="{2AF12103-FCA7-436B-945A-8852A6995846}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
