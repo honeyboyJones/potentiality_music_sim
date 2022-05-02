@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>/Users/honeyboyjones/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Development/music_gameplay/potentiality_music_sim/Proteusque/Proteusque_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/honeyboyjones/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Development/music_gameplay/potentiality_music_sim/Proteusque/Proteusque_WwiseProject/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/honeyboyjones/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Development/music_gameplay/potentiality_music_sim/Proteusque/Proteusque_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>/Users/honeyboy/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Development/music_gameplay/potentiality_music_repo/Proteusque/Proteusque_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/honeyboy/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Development/music_gameplay/potentiality_music_repo/Proteusque/Proteusque_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/honeyboy/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Development/music_gameplay/potentiality_music_repo/Proteusque/Proteusque_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/honeyboyjones/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Development/music_gameplay/potentiality_music_sim/Proteusque/Proteusque_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/honeyboy/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Development/music_gameplay/potentiality_music_repo/Proteusque/Proteusque_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2416386526" Language="SFX" Hash="171875019">
+		<SoundBank Id="2416386526" Language="SFX" Hash="363230626">
 			<ObjectPath>\SoundBanks\Default Work Unit\Proteusque</ObjectPath>
 			<ShortName>Proteusque</ShortName>
 			<Path>Proteusque.bnk</Path>
@@ -62,6 +62,10 @@
 						<File Id="776986685" Language="SFX">
 							<ShortName>c airy combined.wav</ShortName>
 							<Path>SFX/c airy combined_9EDFC787.wem</Path>
+						</File>
+						<File Id="780786276" Language="SFX">
+							<ShortName>desert_shaker.wav</ShortName>
+							<Path>SFX/desert_shaker_9EDFC787.wem</Path>
 						</File>
 						<File Id="805983013" Language="SFX">
 							<ShortName>a esotaric garden.wav</ShortName>
@@ -123,6 +127,11 @@
 								<File Id="1071767067"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2AF12103-FCA7-436B-945A-8852A6995846}">
+							<Media>
+								<File Id="780786276"/>
+							</Media>
+						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 				<Event Id="3415295600" Name="StartSpatialLoop1" ObjectPath="\Events\Default Work Unit\StartSpatialLoop1" MaxAttenuation="20." DurationType="Infinite">
@@ -163,6 +172,7 @@
 						<State Id="3987849186" Name="Magenta" ObjectPath="\States\Default Work Unit\Region\Magenta" GUID="{3F88B34E-4FAE-412A-A527-8078BC26C379}"/>
 						<State Id="3036078039" Name="Purple" ObjectPath="\States\Default Work Unit\Region\Purple" GUID="{D46F03EA-FB71-4EBA-BA95-562A1CA682F5}"/>
 						<State Id="1011622525" Name="Night" ObjectPath="\States\Default Work Unit\Region\Night" GUID="{99A64A29-9325-4EAC-AE01-EB354D491FAA}"/>
+						<State Id="3802555985" Name="Ocean" ObjectPath="\States\Default Work Unit\Region\Ocean" GUID="{2AF12103-FCA7-436B-945A-8852A6995846}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>

@@ -3634,6 +3634,146 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="OceanLand" ID="{8AF3A434-383C-497C-BBB5-8A06EC673B4B}" ShortID="209389466">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{982B6AEF-462E-44A6-B9A7-408817EB0171}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="OceanLandShaker" ID="{A0D0E4B9-1385-4FCC-8BD0-422BCEFDE938}" ShortID="638469846">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="16714.2857142857"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>42</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{982B6AEF-462E-44A6-B9A7-408817EB0171}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="desert_shaker" ID="{6B3F4BE2-5811-4099-9DC9-86A9092B719B}" ShortID="993790123">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{730C0992-E4C5-4F2E-A43A-919506CB1F28}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="desert_shaker" ID="{3CCC8EDB-890E-4A7B-BE73-D25A8AF77892}">
+													<Language>SFX</Language>
+													<AudioFile>desert_shaker.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="780786276"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E19AB969-8996-4834-9DFE-AB32AF74F157}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{05E52A85-4993-4249-81D8-217570DA4899}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="desert_shaker" ID="{443FEA87-9B33-434F-89CD-7BF2E006C32A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="11428.5941043084"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="desert_shaker" ID="{3CCC8EDB-890E-4A7B-BE73-D25A8AF77892}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{316058FE-D76C-4A9B-AF19-B10775C109C2}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{1725B903-866B-401C-A31E-2A78D282EE06}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="11428.5714285714"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{ABEF28A0-3834-4EE8-B2D4-2EE2518F4D57}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{453D7EA3-D36B-48C3-B32A-545B17607151}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{8084D93E-FC70-45C7-ACA0-83054C26EC14}" ShortID="483875531">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{784988BD-063A-41A6-8352-B2A9AFCF5895}" ShortID="869773191">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OceanLandShaker" ID="{A0D0E4B9-1385-4FCC-8BD0-422BCEFDE938}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{EC3107B6-961D-46C3-AA85-C35FF731E182}">
@@ -3745,6 +3885,14 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="PurpleLand" ID="{37335922-9301-4D4F-8348-E13ECA22DBEF}" WorkUnitID="{3C181720-A88D-4215-BA0A-6B06F85C224B}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Ocean" ID="{2AF12103-FCA7-436B-945A-8852A6995846}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="OceanLand" ID="{8AF3A434-383C-497C-BBB5-8A06EC673B4B}" WorkUnitID="{3C181720-A88D-4215-BA0A-6B06F85C224B}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

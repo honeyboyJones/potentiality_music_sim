@@ -32,6 +32,7 @@ namespace AK
                 static const AkUniqueID MAGENTA = 3987849186U;
                 static const AkUniqueID NIGHT = 1011622525U;
                 static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID OCEAN = 3802555985U;
                 static const AkUniqueID PURPLE = 3036078039U;
             } // namespace STATE
         } // namespace REGION
