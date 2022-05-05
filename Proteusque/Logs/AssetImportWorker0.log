@@ -2,10 +2,10 @@ Unity Editor version:    2020.3.27f1 (e759542391ea)
 Branch:                  2020.3/release
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 12.2 (Build 21D49)
-Darwin version:          21.3.0
+macOS version:           Version 10.15.7 (Build 19H1824)
+Darwin version:          19.6.0
 Architecture:            x86_64
-Running under Rosetta:   YES
+Running under Rosetta:   NO
 Available memory:        16384 MB
 Using pre-set license
 Pro License: NO
@@ -18,76 +18,76 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/honeyboy/Development/music_gameplay/potentiality_music_repo/Proteusque
+/Users/honeyboyjones/Development/music_gameplay/potentiality_music_sim/Proteusque
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63633
-Successfully changed project path to: /Users/honeyboy/Development/music_gameplay/potentiality_music_repo/Proteusque
-/Users/honeyboy/Development/music_gameplay/potentiality_music_repo/Proteusque
+51548
+Successfully changed project path to: /Users/honeyboyjones/Development/music_gameplay/potentiality_music_sim/Proteusque
+/Users/honeyboyjones/Development/music_gameplay/potentiality_music_sim/Proteusque
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 75.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 86.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/honeyboy/Development/music_gameplay/potentiality_music_repo/Proteusque/Assets
+[Subsystems] Discovering subsystems at path /Users/honeyboyjones/Development/music_gameplay/potentiality_music_sim/Proteusque/Assets
 GfxDevice: creating device client; threaded=0
-2022-04-20 08:39:36.098 Unity[20227:6028339] (null) preferred device: Apple M1 Pro (high power)
-2022-04-20 08:39:36.098 Unity[20227:6028339] Metal devices available: 1
-2022-04-20 08:39:36.098 Unity[20227:6028339] 0: Apple M1 Pro (high power)
-2022-04-20 08:39:36.098 Unity[20227:6028339] Using device Apple M1 Pro (high power)
-Initializing Metal device caps: Apple M1 Pro
+2022-05-03 13:33:39.444 Unity[36594:2172492] PA278QV preferred device: NVIDIA GeForce GT 750M (high power)
+2022-05-03 13:33:39.444 Unity[36594:2172492] Metal devices available: 1
+2022-05-03 13:33:39.444 Unity[36594:2172492] 0: NVIDIA GeForce GT 750M (high power)
+2022-05-03 13:33:39.444 Unity[36594:2172492] Using device NVIDIA GeForce GT 750M (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 750M
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56227
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56594
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.27f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001597 seconds.
+Registered in 0.002182 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 45.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 57.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.294 seconds
+- Completed reload, in  0.927 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1294ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (928ms)
+		BeginReloadAssembly (128ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1048ms)
-			LoadAssemblies (119ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (697ms)
+			LoadAssemblies (129ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (186ms)
+			SetupTypeCache (267ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (524ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (256ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (33ms)
-				ProcessInitializeOnLoadAttributes (317ms)
-				ProcessInitializeOnLoadMethodAttributes (111ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (3ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006560 seconds.
+Registered in 0.006821 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 45.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 61.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
@@ -118,38 +118,48 @@ Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libKernel32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/Kernel32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libKernel32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libKernel32
 Mono: successfully reloaded assembly
-- Completed reload, in  3.719 seconds
+- Completed reload, in  2.724 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3722ms)
-		BeginReloadAssembly (256ms)
+	ReloadAssembly (2725ms)
+		BeginReloadAssembly (220ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (31ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (3373ms)
-			LoadAssemblies (195ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (2417ms)
+			LoadAssemblies (146ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (349ms)
+			SetupTypeCache (582ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (2465ms)
+			RebuildScriptCaches (134ms)
+			SetupLoadedEditorAssemblies (1377ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (45ms)
-				BeforeProcessingInitializeOnLoad (156ms)
-				ProcessInitializeOnLoadAttributes (2180ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (1165ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (31ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.016955 seconds.
+Validating Project structure ... 0.014240 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.008010 seconds.
+Upgrading shader files ...0.016413 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -159,20 +169,18 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.20 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Initializing Unity extensions:
-2022-04-20 08:39:42.868 Unity[20227:6028339] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000001a2450 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-04-20 08:39:42.872 Unity[20227:6028339] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000001b63e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2534 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 265.4 MB.
-System memory in use after: 264.6 MB.
+Unloading 2536 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 263.2 MB.
+System memory in use after: 262.2 MB.
 
-Unloading 254 unused Assets to reduce memory usage. Loaded Objects now: 2971.
-Total: 3.401125 ms (FindLiveObjects: 0.159750 ms CreateObjectMapping: 0.055625 ms MarkObjects: 2.737833 ms  DeleteObjects: 0.447083 ms)
+Unloading 258 unused Assets to reduce memory usage. Loaded Objects now: 2978.
+Total: 7.672270 ms (FindLiveObjects: 0.390234 ms CreateObjectMapping: 0.352085 ms MarkObjects: 5.736160 ms  DeleteObjects: 1.192638 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -180,28 +188,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/DayNight/DefaultPreset.asset
-  artifactKey: Guid(91885641859184263b320f2242f080e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DayNight/DefaultPreset.asset using Guid(91885641859184263b320f2242f080e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26815e306c6019705732c0e26bdd31dd') in 0.627363 seconds 
-  Import took 0.632827 seconds .
+  path: Assets/Museum Objects
+  artifactKey: Guid(b017b1f4dfd3d451bbdaefc7b4444549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects using Guid(b017b1f4dfd3d451bbdaefc7b4444549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1da5b05975c7547d5422bd73e19c078') in 0.007509 seconds 
+  Import took 0.013446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.089627 seconds.
+  path: Assets/Museum Objects/usnm_240-100k-2048-obj_std
+  artifactKey: Guid(799cbbe7ac53b4d3d972296f8a4ad987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_240-100k-2048-obj_std using Guid(799cbbe7ac53b4d3d972296f8a4ad987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ea34bfdce6275a12782fce16d68bf4') in 0.001957 seconds 
+  Import took 0.008846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.259517 seconds.
+  path: Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-150k.obj
+  artifactKey: Guid(a16f7aba9499746afb5d9588b6ca9bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-150k.obj using Guid(a16f7aba9499746afb5d9588b6ca9bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05321a356f97369e8c6deacba4d44ac5') in 0.699274 seconds 
+  Import took 0.710945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.002475 seconds.
+  path: Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048.mtl
+  artifactKey: Guid(49055b34caaa04d588dab3b181724e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048.mtl using Guid(49055b34caaa04d588dab3b181724e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1b9ab6303622a610228694695a182e') in 0.293399 seconds 
+  Import took 0.304907 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012374 seconds.
+Registered in 0.013064 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-20 08:44:36.007 Unity[20227:6028339] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000001892d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
@@ -218,116 +249,42 @@ Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
 Mono: successfully reloaded assembly
-- Completed reload, in  3.771 seconds
+- Completed reload, in  3.115 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3773ms)
-		BeginReloadAssembly (345ms)
+	ReloadAssembly (3115ms)
+		BeginReloadAssembly (284ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (155ms)
-		EndReloadAssembly (3335ms)
-			LoadAssemblies (239ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (2742ms)
+			LoadAssemblies (229ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (351ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (2416ms)
+			SetupTypeCache (548ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (1640ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (256ms)
-				ProcessInitializeOnLoadAttributes (2069ms)
-				ProcessInitializeOnLoadMethodAttributes (76ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2472 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 263.0 MB.
-System memory in use after: 263.1 MB.
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 2974.
-Total: 3.190292 ms (FindLiveObjects: 0.127125 ms CreateObjectMapping: 0.050167 ms MarkObjects: 2.806416 ms  DeleteObjects: 0.203458 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008592 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-04-20 09:46:16.354 Unity[20227:6028339] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000001c8bd0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
-Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
-Mono: successfully reloaded assembly
-- Completed reload, in  3.931 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3935ms)
-		BeginReloadAssembly (361ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (39ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (154ms)
-		EndReloadAssembly (3469ms)
-			LoadAssemblies (252ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (359ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (2502ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (229ms)
-				ProcessInitializeOnLoadAttributes (2185ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (1380ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (33ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2472 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 263.8 MB.
-System memory in use after: 263.9 MB.
+Unloading 2474 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 267.6 MB.
+System memory in use after: 267.6 MB.
 
-Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 2976.
-Total: 3.075916 ms (FindLiveObjects: 0.123625 ms CreateObjectMapping: 0.050875 ms MarkObjects: 2.689541 ms  DeleteObjects: 0.208041 ms)
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3023.
+Total: 6.323039 ms (FindLiveObjects: 0.341175 ms CreateObjectMapping: 0.277910 ms MarkObjects: 5.471093 ms  DeleteObjects: 0.231443 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -335,7 +292,402 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 349.230943 seconds.
+  path: Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048-occlusion.jpg
+  artifactKey: Guid(740027d4e7149412883d7c02332cc529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048-occlusion.jpg using Guid(740027d4e7149412883d7c02332cc529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5a94678a2bcf961b2b5acc7b6f7aa9') in 0.562075 seconds 
+  Import took 0.573998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.536667 seconds.
+  path: Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048-normals.jpg
+  artifactKey: Guid(40d5b0ff6a48b474d9abf299146dd722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048-normals.jpg using Guid(40d5b0ff6a48b474d9abf299146dd722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd062d9026bd233ae2d3afb3e743dfc11') in 0.017784 seconds 
+  Import took 0.024470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.910595 seconds.
+  path: Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048-normals.jpg
+  artifactKey: Guid(40d5b0ff6a48b474d9abf299146dd722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048-normals.jpg using Guid(40d5b0ff6a48b474d9abf299146dd722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3ccc5e989ce0f1e8b077f56b0becf6') in 0.081724 seconds 
+  Import took 0.089001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.560085 seconds.
+  path: Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048-diffuse.jpg
+  artifactKey: Guid(cb4940adc1ae740308c8f7d8099fcc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048-diffuse.jpg using Guid(cb4940adc1ae740308c8f7d8099fcc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144e237e7111fc1e217ef04c44e27b82') in 0.066789 seconds 
+  Import took 0.072523 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023803 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.809 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2812ms)
+		BeginReloadAssembly (407ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (177ms)
+		EndReloadAssembly (2308ms)
+			LoadAssemblies (271ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (545ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (1333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (1108ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2474 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 272.2 MB.
+System memory in use after: 272.3 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3029.
+Total: 5.334995 ms (FindLiveObjects: 0.339065 ms CreateObjectMapping: 0.225248 ms MarkObjects: 4.545330 ms  DeleteObjects: 0.224437 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4015.929289 seconds.
+  path: Assets/Museum Objects/usnm_188-100k-2048-obj_std
+  artifactKey: Guid(113a15a759ee84685821c38551be4378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_188-100k-2048-obj_std using Guid(113a15a759ee84685821c38551be4378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa67025d600215fa3211de1737fb1d55') in 0.009928 seconds 
+  Import took 0.017960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.327763 seconds.
+  path: Assets/Museum Objects/usnm_188-100k-2048-obj_std/usnm_188-100k-2048-normals.jpg
+  artifactKey: Guid(403a14fa2cb964ebaa17f337e3163497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_188-100k-2048-obj_std/usnm_188-100k-2048-normals.jpg using Guid(403a14fa2cb964ebaa17f337e3163497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835d83c0e3774fde8788c2f6a6cfed55') in 0.144680 seconds 
+  Import took 0.151338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.256990 seconds.
+  path: Assets/Museum Objects/usnm_188-100k-2048-obj_std/usnm_188-100k-2048-normals.jpg
+  artifactKey: Guid(403a14fa2cb964ebaa17f337e3163497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_188-100k-2048-obj_std/usnm_188-100k-2048-normals.jpg using Guid(403a14fa2cb964ebaa17f337e3163497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f90a89c4149e030d3c1602c0c96d22') in 0.078599 seconds 
+  Import took 0.086244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.869059 seconds.
+  path: Assets/Museum Objects/usnm_188-100k-2048-obj_std/usnm_188-150k.obj
+  artifactKey: Guid(58e44324a04cf4d22b0eb8d02771d623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_188-100k-2048-obj_std/usnm_188-150k.obj using Guid(58e44324a04cf4d22b0eb8d02771d623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f33a0052f950b3e44eeda3356aa39c4') in 0.203496 seconds 
+  Import took 0.210145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.514824 seconds.
+  path: Assets/Museum Objects/usnm_199-100k-2048-obj_std
+  artifactKey: Guid(8ca1aeee37f9343f583f9295fa3a01f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_199-100k-2048-obj_std using Guid(8ca1aeee37f9343f583f9295fa3a01f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6128fb758876902ab080d53082ad45') in 0.004402 seconds 
+  Import took 0.010350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.770923 seconds.
+  path: Assets/Museum Objects/usnm_199-100k-2048-obj_std/usnm_199-100k-2048-normals.jpg
+  artifactKey: Guid(8b7dab6e5c3da4716b21e02c789bae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_199-100k-2048-obj_std/usnm_199-100k-2048-normals.jpg using Guid(8b7dab6e5c3da4716b21e02c789bae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a4493cf662e92405197a624eea0ee0') in 0.018707 seconds 
+  Import took 0.025702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.303442 seconds.
+  path: Assets/Museum Objects/usnm_199-100k-2048-obj_std/usnm_199-100k-2048-normals.jpg
+  artifactKey: Guid(8b7dab6e5c3da4716b21e02c789bae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_199-100k-2048-obj_std/usnm_199-100k-2048-normals.jpg using Guid(8b7dab6e5c3da4716b21e02c789bae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199cbd01809abe129327311c0a696ece') in 0.036137 seconds 
+  Import took 0.043618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.494328 seconds.
+  path: Assets/Museum Objects/usnm_246-100k-2048-obj_std
+  artifactKey: Guid(5b87b935239d94210bf19b920162a7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_246-100k-2048-obj_std using Guid(5b87b935239d94210bf19b920162a7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9a47b1476866d973fc50303647d1d1') in 0.001365 seconds 
+  Import took 0.006995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.957897 seconds.
+  path: Assets/Museum Objects/usnm_246-100k-2048-obj_std/usnm_246-100k-2048-normals.jpg
+  artifactKey: Guid(9389a14cdb06a44e984f8ce402b4f050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_246-100k-2048-obj_std/usnm_246-100k-2048-normals.jpg using Guid(9389a14cdb06a44e984f8ce402b4f050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a53452404391a8a528c08c6a64f57fd') in 0.020860 seconds 
+  Import took 0.027274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.907468 seconds.
+  path: Assets/Museum Objects/usnm_246-100k-2048-obj_std/usnm_246-100k-2048-normals.jpg
+  artifactKey: Guid(9389a14cdb06a44e984f8ce402b4f050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_246-100k-2048-obj_std/usnm_246-100k-2048-normals.jpg using Guid(9389a14cdb06a44e984f8ce402b4f050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639a9464a76b58f3568e42206d3c04d5') in 0.039729 seconds 
+  Import took 0.047473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.423754 seconds.
+  path: Assets/Museum Objects/usnm_292-100k-2048-obj_std
+  artifactKey: Guid(2a9c990fa8ff841ac9df1dc443bc12a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_292-100k-2048-obj_std using Guid(2a9c990fa8ff841ac9df1dc443bc12a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33115cab7497f45370f82788820bd175') in 0.004108 seconds 
+  Import took 0.010010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.062050 seconds.
+  path: Assets/Museum Objects/usnm_292-100k-2048-obj_std/usnm_292-100k-2048-normals.jpg
+  artifactKey: Guid(a5d3dff7b8be94c50a8828bb0295313c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_292-100k-2048-obj_std/usnm_292-100k-2048-normals.jpg using Guid(a5d3dff7b8be94c50a8828bb0295313c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685fcb944b3e6fb1d3a0c2a0aafe519a') in 0.027881 seconds 
+  Import took 0.033953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.121812 seconds.
+  path: Assets/Museum Objects/usnm_292-100k-2048-obj_std/usnm_292-100k-2048-normals.jpg
+  artifactKey: Guid(a5d3dff7b8be94c50a8828bb0295313c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_292-100k-2048-obj_std/usnm_292-100k-2048-normals.jpg using Guid(a5d3dff7b8be94c50a8828bb0295313c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16ce67e8e2b6343f9e4306e7faeee95') in 0.044900 seconds 
+  Import took 0.052310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.684698 seconds.
+  path: Assets/Museum Objects/usnm_700-100k-2048-obj_std/usnm_700-100k-2048-normals.jpg
+  artifactKey: Guid(789665fb0a20d4c8a8c4e89a47240cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_700-100k-2048-obj_std/usnm_700-100k-2048-normals.jpg using Guid(789665fb0a20d4c8a8c4e89a47240cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc6133ab77888fdfa114592b15d4e6d') in 0.015508 seconds 
+  Import took 0.021923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.156723 seconds.
+  path: Assets/Museum Objects/usnm_700-100k-2048-obj_std/usnm_700-100k-2048-normals.jpg
+  artifactKey: Guid(789665fb0a20d4c8a8c4e89a47240cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_700-100k-2048-obj_std/usnm_700-100k-2048-normals.jpg using Guid(789665fb0a20d4c8a8c4e89a47240cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1684440cc5ecc582b6c855279816363f') in 0.032684 seconds 
+  Import took 0.039755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.857754 seconds.
+  path: Assets/Museum Objects/usnm_76340-100k-2048-obj_std/usnm_76340-100k-2048-normals.jpg
+  artifactKey: Guid(f4637dd22da604fcd8b3f129e881a1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_76340-100k-2048-obj_std/usnm_76340-100k-2048-normals.jpg using Guid(f4637dd22da604fcd8b3f129e881a1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad52982391ef729f8b8bb569413e1f92') in 0.021389 seconds 
+  Import took 0.027113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.934608 seconds.
+  path: Assets/Museum Objects/usnm_76340-100k-2048-obj_std/usnm_76340-100k-2048-normals.jpg
+  artifactKey: Guid(f4637dd22da604fcd8b3f129e881a1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_76340-100k-2048-obj_std/usnm_76340-100k-2048-normals.jpg using Guid(f4637dd22da604fcd8b3f129e881a1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305154a22cdf7ac76538971fd9ac1a39') in 0.020151 seconds 
+  Import took 0.027786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.725100 seconds.
+  path: Assets/Museum Objects/usnm_81450-100k-2048-obj_std/usnm_81450-100k-2048-normals.jpg
+  artifactKey: Guid(3cff83aadbefe403aa6694349e887eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_81450-100k-2048-obj_std/usnm_81450-100k-2048-normals.jpg using Guid(3cff83aadbefe403aa6694349e887eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30194ae606deff027a962c6a201564e3') in 0.017805 seconds 
+  Import took 0.024613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.900800 seconds.
+  path: Assets/Museum Objects/usnm_81450-100k-2048-obj_std/usnm_81450-100k-2048-normals.jpg
+  artifactKey: Guid(3cff83aadbefe403aa6694349e887eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_81450-100k-2048-obj_std/usnm_81450-100k-2048-normals.jpg using Guid(3cff83aadbefe403aa6694349e887eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189de13d602750454668f38143911203') in 0.019448 seconds 
+  Import took 0.027128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.174440 seconds.
+  path: Assets/Museum Objects/usnm_83771-100k-2048-obj_std/usnm_83771-100k-2048-normals.jpg
+  artifactKey: Guid(8e6369741735e40b6a68bce267d09f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_83771-100k-2048-obj_std/usnm_83771-100k-2048-normals.jpg using Guid(8e6369741735e40b6a68bce267d09f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c0f4775ca3298498c21823b7399226') in 0.017643 seconds 
+  Import took 0.024125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.939705 seconds.
+  path: Assets/Museum Objects/usnm_83771-100k-2048-obj_std/usnm_83771-100k-2048-normals.jpg
+  artifactKey: Guid(8e6369741735e40b6a68bce267d09f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_83771-100k-2048-obj_std/usnm_83771-100k-2048-normals.jpg using Guid(8e6369741735e40b6a68bce267d09f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3602fbf8090e46af9f815d5b99b51362') in 0.023337 seconds 
+  Import took 0.031277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.959049 seconds.
+  path: Assets/Museum Objects/usnm_89696-100k-2048-obj_std/usnm_89696-100k-2048-normals.jpg
+  artifactKey: Guid(6391fd73424394ad8a84cfa7b232e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_89696-100k-2048-obj_std/usnm_89696-100k-2048-normals.jpg using Guid(6391fd73424394ad8a84cfa7b232e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d881f8939f75191cbcf2a1834110c8') in 0.016983 seconds 
+  Import took 0.024191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.004177 seconds.
+  path: Assets/Museum Objects/usnm_89696-100k-2048-obj_std/usnm_89696-100k-2048-normals.jpg
+  artifactKey: Guid(6391fd73424394ad8a84cfa7b232e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_89696-100k-2048-obj_std/usnm_89696-100k-2048-normals.jpg using Guid(6391fd73424394ad8a84cfa7b232e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652a6d72f01f5558620156d69bcb2147') in 0.029955 seconds 
+  Import took 0.037740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.172132 seconds.
+  path: Assets/Museum Objects/usnm_93379-100k-2048-obj_std/usnm_93379-100k-2048-normals.jpg
+  artifactKey: Guid(f23fd8f205f6d42289442c863781b31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_93379-100k-2048-obj_std/usnm_93379-100k-2048-normals.jpg using Guid(f23fd8f205f6d42289442c863781b31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5221fdca62a34d9237cb9f79888dc6c0') in 0.018714 seconds 
+  Import took 0.025017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.246669 seconds.
+  path: Assets/Museum Objects/usnm_93379-100k-2048-obj_std/usnm_93379-100k-2048-normals.jpg
+  artifactKey: Guid(f23fd8f205f6d42289442c863781b31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_93379-100k-2048-obj_std/usnm_93379-100k-2048-normals.jpg using Guid(f23fd8f205f6d42289442c863781b31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac12e3b2768c58b3e7c40892a06dd41') in 0.024197 seconds 
+  Import took 0.031671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.960355 seconds.
+  path: Assets/Museum Objects/usnm_1122878-100k-2048-obj_std/usnm_1122878-100k-2048-normals.jpg
+  artifactKey: Guid(4b2a6f6c2ae8048468db4d7d60c07f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_1122878-100k-2048-obj_std/usnm_1122878-100k-2048-normals.jpg using Guid(4b2a6f6c2ae8048468db4d7d60c07f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8f632763da0ad0d88545576e0ca129') in 0.016853 seconds 
+  Import took 0.024589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.543657 seconds.
+  path: Assets/Museum Objects/usnm_1122878-100k-2048-obj_std/usnm_1122878-100k-2048-normals.jpg
+  artifactKey: Guid(4b2a6f6c2ae8048468db4d7d60c07f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_1122878-100k-2048-obj_std/usnm_1122878-100k-2048-normals.jpg using Guid(4b2a6f6c2ae8048468db4d7d60c07f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eea5d9163570ce6d9cffabbb66e1a47') in 0.026131 seconds 
+  Import took 0.035501 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012335 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.405 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2405ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (2127ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (498ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (1242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (1032ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2474 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 272.7 MB.
+System memory in use after: 272.7 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3033.
+Total: 5.725954 ms (FindLiveObjects: 0.308175 ms CreateObjectMapping: 0.343864 ms MarkObjects: 4.771252 ms  DeleteObjects: 0.301764 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
