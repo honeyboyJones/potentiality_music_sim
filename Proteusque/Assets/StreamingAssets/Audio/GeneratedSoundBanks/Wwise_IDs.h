@@ -13,10 +13,16 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID STARTDAYWIND = 461120181U;
         static const AkUniqueID STARTMUSIC = 3827058668U;
+        static const AkUniqueID STARTNIGHTWIND = 486523545U;
+        static const AkUniqueID STARTOCEANLOOP1 = 2497693598U;
+        static const AkUniqueID STARTOCEANLOOP2 = 2497693597U;
         static const AkUniqueID STARTSPATIALLOOP1 = 3415295600U;
         static const AkUniqueID STARTSPATIALLOOP2 = 3415295603U;
         static const AkUniqueID STARTSPATIALLOOP3 = 3415295602U;
+        static const AkUniqueID STARTUNDERWATERLOOP1 = 3087394743U;
+        static const AkUniqueID STARTUNDERWATERLOOP2 = 3087394740U;
         static const AkUniqueID STOPMUSIC = 1917263390U;
     } // namespace EVENTS
 

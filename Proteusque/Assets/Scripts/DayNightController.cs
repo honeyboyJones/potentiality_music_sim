@@ -20,6 +20,8 @@ public class DayNightController : MonoBehaviour
 
     [NonSerialized] public float time;
 
+    public static float timeWwise;
+
     private float intensity, rotation, prev_rotation = -1f, sunSet, sunRise, sunDayRatio;
 
     private float fade, timeLight, timeExtinguish;
@@ -27,6 +29,7 @@ public class DayNightController : MonoBehaviour
     private Renderer rend;
 
     private Vector3 dir;
+
 
     //called before the first frame update
     void Start()
@@ -87,6 +90,8 @@ public class DayNightController : MonoBehaviour
 
         tintColor.a = fade;
         rend.material.SetColor("_TintColor", tintColor);
+
+        timeWwise = time;
     }
 
     private float HMS_to_Time(float hour, float minute, float second)

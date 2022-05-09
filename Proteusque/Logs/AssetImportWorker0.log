@@ -22,72 +22,72 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51548
+61557
 Successfully changed project path to: /Users/honeyboyjones/Development/music_gameplay/potentiality_music_sim/Proteusque
 /Users/honeyboyjones/Development/music_gameplay/potentiality_music_sim/Proteusque
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 86.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/honeyboyjones/Development/music_gameplay/potentiality_music_sim/Proteusque/Assets
 GfxDevice: creating device client; threaded=0
-2022-05-03 13:33:39.444 Unity[36594:2172492] PA278QV preferred device: NVIDIA GeForce GT 750M (high power)
-2022-05-03 13:33:39.444 Unity[36594:2172492] Metal devices available: 1
-2022-05-03 13:33:39.444 Unity[36594:2172492] 0: NVIDIA GeForce GT 750M (high power)
-2022-05-03 13:33:39.444 Unity[36594:2172492] Using device NVIDIA GeForce GT 750M (high power)
+2022-05-08 18:57:47.847 Unity[6489:6836262] PA278QV preferred device: NVIDIA GeForce GT 750M (high power)
+2022-05-08 18:57:47.847 Unity[6489:6836262] Metal devices available: 1
+2022-05-08 18:57:47.847 Unity[6489:6836262] 0: NVIDIA GeForce GT 750M (high power)
+2022-05-08 18:57:47.848 Unity[6489:6836262] Using device NVIDIA GeForce GT 750M (high power)
 Initializing Metal device caps: NVIDIA GeForce GT 750M
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56594
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56489
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.27f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002182 seconds.
+Registered in 0.000688 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 57.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 58.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.927 seconds
+- Completed reload, in  0.819 seconds
 Domain Reload Profiling:
-	ReloadAssembly (928ms)
-		BeginReloadAssembly (128ms)
+	ReloadAssembly (819ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (697ms)
-			LoadAssemblies (129ms)
+		EndReloadAssembly (665ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (267ms)
+			SetupTypeCache (231ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (256ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (261ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (57ms)
+				RefreshPlugins (58ms)
 				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (137ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006821 seconds.
+Registered in 0.003324 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 61.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 56.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
@@ -129,37 +129,37 @@ Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libKernel32.bundle
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libKernel32
 Mono: successfully reloaded assembly
-- Completed reload, in  2.724 seconds
+- Completed reload, in  2.592 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2725ms)
-		BeginReloadAssembly (220ms)
+	ReloadAssembly (2593ms)
+		BeginReloadAssembly (207ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (2417ms)
-			LoadAssemblies (146ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (2281ms)
+			LoadAssemblies (136ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (582ms)
+			SetupTypeCache (484ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (134ms)
-			SetupLoadedEditorAssemblies (1377ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (1415ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (62ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (1165ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (1193ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.014240 seconds.
+Validating Project structure ... 0.012740 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.016413 seconds.
+Upgrading shader files ...0.053044 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -173,14 +173,14 @@ Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2536 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 263.2 MB.
-System memory in use after: 262.2 MB.
+System memory in use after: 262.4 MB.
 
 Unloading 258 unused Assets to reduce memory usage. Loaded Objects now: 2978.
-Total: 7.672270 ms (FindLiveObjects: 0.390234 ms CreateObjectMapping: 0.352085 ms MarkObjects: 5.736160 ms  DeleteObjects: 1.192638 ms)
+Total: 6.203216 ms (FindLiveObjects: 0.439467 ms CreateObjectMapping: 0.369714 ms MarkObjects: 4.860158 ms  DeleteObjects: 0.532808 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -194,45 +194,29 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Museum Objects
-  artifactKey: Guid(b017b1f4dfd3d451bbdaefc7b4444549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects using Guid(b017b1f4dfd3d451bbdaefc7b4444549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1da5b05975c7547d5422bd73e19c078') in 0.007509 seconds 
-  Import took 0.013446 seconds .
+  path: Assets/Museum Objects/usnm_56807-100k-2048-obj_std/usnm_56807-100k-2048-normals.jpg
+  artifactKey: Guid(a649d1cf141d141faaf092d25ab7d8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Museum Objects/usnm_56807-100k-2048-obj_std/usnm_56807-100k-2048-normals.jpg using Guid(a649d1cf141d141faaf092d25ab7d8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a616139c24560c669aa995b47a1afa8') in 0.522442 seconds 
+  Import took 0.535220 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.089627 seconds.
-  path: Assets/Museum Objects/usnm_240-100k-2048-obj_std
-  artifactKey: Guid(799cbbe7ac53b4d3d972296f8a4ad987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_240-100k-2048-obj_std using Guid(799cbbe7ac53b4d3d972296f8a4ad987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ea34bfdce6275a12782fce16d68bf4') in 0.001957 seconds 
-  Import took 0.008846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.259517 seconds.
-  path: Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-150k.obj
-  artifactKey: Guid(a16f7aba9499746afb5d9588b6ca9bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-150k.obj using Guid(a16f7aba9499746afb5d9588b6ca9bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05321a356f97369e8c6deacba4d44ac5') in 0.699274 seconds 
-  Import took 0.710945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.002475 seconds.
-  path: Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048.mtl
-  artifactKey: Guid(49055b34caaa04d588dab3b181724e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048.mtl using Guid(49055b34caaa04d588dab3b181724e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1b9ab6303622a610228694695a182e') in 0.293399 seconds 
-  Import took 0.304907 seconds .
+  Time since last request: 672.221431 seconds.
+  path: Assets/Scripts/TrigUtil.cs
+  artifactKey: Guid(38b341506ee2147ef8cb24f77f483e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TrigUtil.cs using Guid(38b341506ee2147ef8cb24f77f483e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14461cc8e6d4752e75f24843f1d7f4d1') in 0.454943 seconds 
+  Import took 0.486607 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013064 seconds.
+Registered in 0.010010 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
@@ -249,42 +233,42 @@ Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
 Mono: successfully reloaded assembly
-- Completed reload, in  3.115 seconds
+- Completed reload, in  2.730 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3115ms)
-		BeginReloadAssembly (284ms)
+	ReloadAssembly (2730ms)
+		BeginReloadAssembly (293ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (130ms)
-		EndReloadAssembly (2742ms)
-			LoadAssemblies (229ms)
+			CreateAndSetChildDomain (155ms)
+		EndReloadAssembly (2350ms)
+			LoadAssemblies (145ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (548ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (118ms)
-			SetupLoadedEditorAssemblies (1640ms)
+			SetupTypeCache (483ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (1410ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (176ms)
-				ProcessInitializeOnLoadAttributes (1380ms)
-				ProcessInitializeOnLoadMethodAttributes (74ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (1184ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2474 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 267.6 MB.
-System memory in use after: 267.6 MB.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 267.1 MB.
+System memory in use after: 267.1 MB.
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 3023.
-Total: 6.323039 ms (FindLiveObjects: 0.341175 ms CreateObjectMapping: 0.277910 ms MarkObjects: 5.471093 ms  DeleteObjects: 0.231443 ms)
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 2985.
+Total: 6.624985 ms (FindLiveObjects: 0.379086 ms CreateObjectMapping: 0.186841 ms MarkObjects: 5.572560 ms  DeleteObjects: 0.482903 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -297,47 +281,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 349.230943 seconds.
-  path: Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048-occlusion.jpg
-  artifactKey: Guid(740027d4e7149412883d7c02332cc529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048-occlusion.jpg using Guid(740027d4e7149412883d7c02332cc529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5a94678a2bcf961b2b5acc7b6f7aa9') in 0.562075 seconds 
-  Import took 0.573998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.536667 seconds.
-  path: Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048-normals.jpg
-  artifactKey: Guid(40d5b0ff6a48b474d9abf299146dd722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048-normals.jpg using Guid(40d5b0ff6a48b474d9abf299146dd722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd062d9026bd233ae2d3afb3e743dfc11') in 0.017784 seconds 
-  Import took 0.024470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.910595 seconds.
-  path: Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048-normals.jpg
-  artifactKey: Guid(40d5b0ff6a48b474d9abf299146dd722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048-normals.jpg using Guid(40d5b0ff6a48b474d9abf299146dd722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3ccc5e989ce0f1e8b077f56b0becf6') in 0.081724 seconds 
-  Import took 0.089001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.560085 seconds.
-  path: Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048-diffuse.jpg
-  artifactKey: Guid(cb4940adc1ae740308c8f7d8099fcc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_240-100k-2048-obj_std/usnm_240-100k-2048-diffuse.jpg using Guid(cb4940adc1ae740308c8f7d8099fcc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144e237e7111fc1e217ef04c44e27b82') in 0.066789 seconds 
-  Import took 0.072523 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.023803 seconds.
+Registered in 0.003765 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
@@ -354,42 +306,42 @@ Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
 Mono: successfully reloaded assembly
-- Completed reload, in  2.809 seconds
+- Completed reload, in  2.486 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2812ms)
-		BeginReloadAssembly (407ms)
+	ReloadAssembly (2486ms)
+		BeginReloadAssembly (185ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (177ms)
-		EndReloadAssembly (2308ms)
-			LoadAssemblies (271ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (108ms)
+		EndReloadAssembly (2198ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (545ms)
+			SetupTypeCache (504ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (1333ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (1297ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (1108ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (1076ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2474 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 272.2 MB.
-System memory in use after: 272.3 MB.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 267.5 MB.
+System memory in use after: 267.6 MB.
 
-Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3029.
-Total: 5.334995 ms (FindLiveObjects: 0.339065 ms CreateObjectMapping: 0.225248 ms MarkObjects: 4.545330 ms  DeleteObjects: 0.224437 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 2987.
+Total: 6.087366 ms (FindLiveObjects: 0.340481 ms CreateObjectMapping: 0.260357 ms MarkObjects: 5.242268 ms  DeleteObjects: 0.243100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -403,228 +355,604 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4015.929289 seconds.
-  path: Assets/Museum Objects/usnm_188-100k-2048-obj_std
-  artifactKey: Guid(113a15a759ee84685821c38551be4378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_188-100k-2048-obj_std using Guid(113a15a759ee84685821c38551be4378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa67025d600215fa3211de1737fb1d55') in 0.009928 seconds 
-  Import took 0.017960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.327763 seconds.
-  path: Assets/Museum Objects/usnm_188-100k-2048-obj_std/usnm_188-100k-2048-normals.jpg
-  artifactKey: Guid(403a14fa2cb964ebaa17f337e3163497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_188-100k-2048-obj_std/usnm_188-100k-2048-normals.jpg using Guid(403a14fa2cb964ebaa17f337e3163497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835d83c0e3774fde8788c2f6a6cfed55') in 0.144680 seconds 
-  Import took 0.151338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.256990 seconds.
-  path: Assets/Museum Objects/usnm_188-100k-2048-obj_std/usnm_188-100k-2048-normals.jpg
-  artifactKey: Guid(403a14fa2cb964ebaa17f337e3163497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_188-100k-2048-obj_std/usnm_188-100k-2048-normals.jpg using Guid(403a14fa2cb964ebaa17f337e3163497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f90a89c4149e030d3c1602c0c96d22') in 0.078599 seconds 
-  Import took 0.086244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.869059 seconds.
-  path: Assets/Museum Objects/usnm_188-100k-2048-obj_std/usnm_188-150k.obj
-  artifactKey: Guid(58e44324a04cf4d22b0eb8d02771d623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_188-100k-2048-obj_std/usnm_188-150k.obj using Guid(58e44324a04cf4d22b0eb8d02771d623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f33a0052f950b3e44eeda3356aa39c4') in 0.203496 seconds 
-  Import took 0.210145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.514824 seconds.
-  path: Assets/Museum Objects/usnm_199-100k-2048-obj_std
-  artifactKey: Guid(8ca1aeee37f9343f583f9295fa3a01f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_199-100k-2048-obj_std using Guid(8ca1aeee37f9343f583f9295fa3a01f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6128fb758876902ab080d53082ad45') in 0.004402 seconds 
-  Import took 0.010350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.770923 seconds.
-  path: Assets/Museum Objects/usnm_199-100k-2048-obj_std/usnm_199-100k-2048-normals.jpg
-  artifactKey: Guid(8b7dab6e5c3da4716b21e02c789bae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_199-100k-2048-obj_std/usnm_199-100k-2048-normals.jpg using Guid(8b7dab6e5c3da4716b21e02c789bae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a4493cf662e92405197a624eea0ee0') in 0.018707 seconds 
-  Import took 0.025702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.303442 seconds.
-  path: Assets/Museum Objects/usnm_199-100k-2048-obj_std/usnm_199-100k-2048-normals.jpg
-  artifactKey: Guid(8b7dab6e5c3da4716b21e02c789bae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_199-100k-2048-obj_std/usnm_199-100k-2048-normals.jpg using Guid(8b7dab6e5c3da4716b21e02c789bae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199cbd01809abe129327311c0a696ece') in 0.036137 seconds 
-  Import took 0.043618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.494328 seconds.
-  path: Assets/Museum Objects/usnm_246-100k-2048-obj_std
-  artifactKey: Guid(5b87b935239d94210bf19b920162a7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_246-100k-2048-obj_std using Guid(5b87b935239d94210bf19b920162a7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9a47b1476866d973fc50303647d1d1') in 0.001365 seconds 
-  Import took 0.006995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.957897 seconds.
-  path: Assets/Museum Objects/usnm_246-100k-2048-obj_std/usnm_246-100k-2048-normals.jpg
-  artifactKey: Guid(9389a14cdb06a44e984f8ce402b4f050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_246-100k-2048-obj_std/usnm_246-100k-2048-normals.jpg using Guid(9389a14cdb06a44e984f8ce402b4f050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a53452404391a8a528c08c6a64f57fd') in 0.020860 seconds 
-  Import took 0.027274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.907468 seconds.
-  path: Assets/Museum Objects/usnm_246-100k-2048-obj_std/usnm_246-100k-2048-normals.jpg
-  artifactKey: Guid(9389a14cdb06a44e984f8ce402b4f050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_246-100k-2048-obj_std/usnm_246-100k-2048-normals.jpg using Guid(9389a14cdb06a44e984f8ce402b4f050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639a9464a76b58f3568e42206d3c04d5') in 0.039729 seconds 
-  Import took 0.047473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.423754 seconds.
-  path: Assets/Museum Objects/usnm_292-100k-2048-obj_std
-  artifactKey: Guid(2a9c990fa8ff841ac9df1dc443bc12a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_292-100k-2048-obj_std using Guid(2a9c990fa8ff841ac9df1dc443bc12a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33115cab7497f45370f82788820bd175') in 0.004108 seconds 
-  Import took 0.010010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.062050 seconds.
-  path: Assets/Museum Objects/usnm_292-100k-2048-obj_std/usnm_292-100k-2048-normals.jpg
-  artifactKey: Guid(a5d3dff7b8be94c50a8828bb0295313c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_292-100k-2048-obj_std/usnm_292-100k-2048-normals.jpg using Guid(a5d3dff7b8be94c50a8828bb0295313c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685fcb944b3e6fb1d3a0c2a0aafe519a') in 0.027881 seconds 
-  Import took 0.033953 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.121812 seconds.
-  path: Assets/Museum Objects/usnm_292-100k-2048-obj_std/usnm_292-100k-2048-normals.jpg
-  artifactKey: Guid(a5d3dff7b8be94c50a8828bb0295313c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_292-100k-2048-obj_std/usnm_292-100k-2048-normals.jpg using Guid(a5d3dff7b8be94c50a8828bb0295313c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16ce67e8e2b6343f9e4306e7faeee95') in 0.044900 seconds 
-  Import took 0.052310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.684698 seconds.
-  path: Assets/Museum Objects/usnm_700-100k-2048-obj_std/usnm_700-100k-2048-normals.jpg
-  artifactKey: Guid(789665fb0a20d4c8a8c4e89a47240cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_700-100k-2048-obj_std/usnm_700-100k-2048-normals.jpg using Guid(789665fb0a20d4c8a8c4e89a47240cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc6133ab77888fdfa114592b15d4e6d') in 0.015508 seconds 
-  Import took 0.021923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.156723 seconds.
-  path: Assets/Museum Objects/usnm_700-100k-2048-obj_std/usnm_700-100k-2048-normals.jpg
-  artifactKey: Guid(789665fb0a20d4c8a8c4e89a47240cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_700-100k-2048-obj_std/usnm_700-100k-2048-normals.jpg using Guid(789665fb0a20d4c8a8c4e89a47240cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1684440cc5ecc582b6c855279816363f') in 0.032684 seconds 
-  Import took 0.039755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.857754 seconds.
-  path: Assets/Museum Objects/usnm_76340-100k-2048-obj_std/usnm_76340-100k-2048-normals.jpg
-  artifactKey: Guid(f4637dd22da604fcd8b3f129e881a1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_76340-100k-2048-obj_std/usnm_76340-100k-2048-normals.jpg using Guid(f4637dd22da604fcd8b3f129e881a1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad52982391ef729f8b8bb569413e1f92') in 0.021389 seconds 
-  Import took 0.027113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.934608 seconds.
-  path: Assets/Museum Objects/usnm_76340-100k-2048-obj_std/usnm_76340-100k-2048-normals.jpg
-  artifactKey: Guid(f4637dd22da604fcd8b3f129e881a1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_76340-100k-2048-obj_std/usnm_76340-100k-2048-normals.jpg using Guid(f4637dd22da604fcd8b3f129e881a1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305154a22cdf7ac76538971fd9ac1a39') in 0.020151 seconds 
-  Import took 0.027786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.725100 seconds.
-  path: Assets/Museum Objects/usnm_81450-100k-2048-obj_std/usnm_81450-100k-2048-normals.jpg
-  artifactKey: Guid(3cff83aadbefe403aa6694349e887eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_81450-100k-2048-obj_std/usnm_81450-100k-2048-normals.jpg using Guid(3cff83aadbefe403aa6694349e887eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30194ae606deff027a962c6a201564e3') in 0.017805 seconds 
-  Import took 0.024613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.900800 seconds.
-  path: Assets/Museum Objects/usnm_81450-100k-2048-obj_std/usnm_81450-100k-2048-normals.jpg
-  artifactKey: Guid(3cff83aadbefe403aa6694349e887eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_81450-100k-2048-obj_std/usnm_81450-100k-2048-normals.jpg using Guid(3cff83aadbefe403aa6694349e887eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189de13d602750454668f38143911203') in 0.019448 seconds 
-  Import took 0.027128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.174440 seconds.
-  path: Assets/Museum Objects/usnm_83771-100k-2048-obj_std/usnm_83771-100k-2048-normals.jpg
-  artifactKey: Guid(8e6369741735e40b6a68bce267d09f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_83771-100k-2048-obj_std/usnm_83771-100k-2048-normals.jpg using Guid(8e6369741735e40b6a68bce267d09f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c0f4775ca3298498c21823b7399226') in 0.017643 seconds 
-  Import took 0.024125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.939705 seconds.
-  path: Assets/Museum Objects/usnm_83771-100k-2048-obj_std/usnm_83771-100k-2048-normals.jpg
-  artifactKey: Guid(8e6369741735e40b6a68bce267d09f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_83771-100k-2048-obj_std/usnm_83771-100k-2048-normals.jpg using Guid(8e6369741735e40b6a68bce267d09f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3602fbf8090e46af9f815d5b99b51362') in 0.023337 seconds 
-  Import took 0.031277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.959049 seconds.
-  path: Assets/Museum Objects/usnm_89696-100k-2048-obj_std/usnm_89696-100k-2048-normals.jpg
-  artifactKey: Guid(6391fd73424394ad8a84cfa7b232e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_89696-100k-2048-obj_std/usnm_89696-100k-2048-normals.jpg using Guid(6391fd73424394ad8a84cfa7b232e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d881f8939f75191cbcf2a1834110c8') in 0.016983 seconds 
-  Import took 0.024191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.004177 seconds.
-  path: Assets/Museum Objects/usnm_89696-100k-2048-obj_std/usnm_89696-100k-2048-normals.jpg
-  artifactKey: Guid(6391fd73424394ad8a84cfa7b232e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_89696-100k-2048-obj_std/usnm_89696-100k-2048-normals.jpg using Guid(6391fd73424394ad8a84cfa7b232e6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652a6d72f01f5558620156d69bcb2147') in 0.029955 seconds 
-  Import took 0.037740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.172132 seconds.
-  path: Assets/Museum Objects/usnm_93379-100k-2048-obj_std/usnm_93379-100k-2048-normals.jpg
-  artifactKey: Guid(f23fd8f205f6d42289442c863781b31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_93379-100k-2048-obj_std/usnm_93379-100k-2048-normals.jpg using Guid(f23fd8f205f6d42289442c863781b31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5221fdca62a34d9237cb9f79888dc6c0') in 0.018714 seconds 
-  Import took 0.025017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.246669 seconds.
-  path: Assets/Museum Objects/usnm_93379-100k-2048-obj_std/usnm_93379-100k-2048-normals.jpg
-  artifactKey: Guid(f23fd8f205f6d42289442c863781b31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_93379-100k-2048-obj_std/usnm_93379-100k-2048-normals.jpg using Guid(f23fd8f205f6d42289442c863781b31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac12e3b2768c58b3e7c40892a06dd41') in 0.024197 seconds 
-  Import took 0.031671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.960355 seconds.
-  path: Assets/Museum Objects/usnm_1122878-100k-2048-obj_std/usnm_1122878-100k-2048-normals.jpg
-  artifactKey: Guid(4b2a6f6c2ae8048468db4d7d60c07f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_1122878-100k-2048-obj_std/usnm_1122878-100k-2048-normals.jpg using Guid(4b2a6f6c2ae8048468db4d7d60c07f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8f632763da0ad0d88545576e0ca129') in 0.016853 seconds 
-  Import took 0.024589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.543657 seconds.
-  path: Assets/Museum Objects/usnm_1122878-100k-2048-obj_std/usnm_1122878-100k-2048-normals.jpg
-  artifactKey: Guid(4b2a6f6c2ae8048468db4d7d60c07f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Museum Objects/usnm_1122878-100k-2048-obj_std/usnm_1122878-100k-2048-normals.jpg using Guid(4b2a6f6c2ae8048468db4d7d60c07f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eea5d9163570ce6d9cffabbb66e1a47') in 0.026131 seconds 
-  Import took 0.035501 seconds .
+  Time since last request: 19.066047 seconds.
+  path: Assets/Scripts/TrigUtil.cs
+  artifactKey: Guid(38b341506ee2147ef8cb24f77f483e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TrigUtil.cs using Guid(38b341506ee2147ef8cb24f77f483e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6716a1391f686549e1dce5f58aeae7') in 0.011409 seconds 
+  Import took 0.016790 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012335 seconds.
+Registered in 0.003667 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.431 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2432ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (102ms)
+		EndReloadAssembly (2161ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (475ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (1304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (1074ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 267.8 MB.
+System memory in use after: 267.9 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 2989.
+Total: 6.265941 ms (FindLiveObjects: 0.324279 ms CreateObjectMapping: 0.250130 ms MarkObjects: 5.228825 ms  DeleteObjects: 0.461524 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003247 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.367 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2367ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (2121ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (455ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (1311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (1083ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 268.1 MB.
+System memory in use after: 268.2 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 2991.
+Total: 5.494635 ms (FindLiveObjects: 0.353370 ms CreateObjectMapping: 0.228541 ms MarkObjects: 4.703432 ms  DeleteObjects: 0.199177 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003510 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.390 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2390ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (2144ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (521ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (1247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (1025ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 268.3 MB.
+System memory in use after: 268.4 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 2993.
+Total: 5.051744 ms (FindLiveObjects: 0.257405 ms CreateObjectMapping: 0.152852 ms MarkObjects: 4.436043 ms  DeleteObjects: 0.204601 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003235 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.437 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2438ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (2202ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (516ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (1328ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (1117ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 268.6 MB.
+System memory in use after: 268.7 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 2995.
+Total: 4.224353 ms (FindLiveObjects: 0.216788 ms CreateObjectMapping: 0.106888 ms MarkObjects: 3.710765 ms  DeleteObjects: 0.189017 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.340 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2340ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (2062ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (501ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (1198ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (983ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 268.9 MB.
+System memory in use after: 269.0 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 2997.
+Total: 4.550349 ms (FindLiveObjects: 0.224370 ms CreateObjectMapping: 0.103349 ms MarkObjects: 4.010411 ms  DeleteObjects: 0.202519 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003348 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.597 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2597ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (106ms)
+		EndReloadAssembly (2323ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (530ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (1406ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (1172ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.2 MB.
+System memory in use after: 269.2 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 2999.
+Total: 6.466215 ms (FindLiveObjects: 0.556947 ms CreateObjectMapping: 0.466110 ms MarkObjects: 5.219627 ms  DeleteObjects: 0.222555 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003975 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.567 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2567ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (2285ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (484ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (1404ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (165ms)
+				ProcessInitializeOnLoadAttributes (1166ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.4 MB.
+System memory in use after: 269.5 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3001.
+Total: 6.617037 ms (FindLiveObjects: 0.243697 ms CreateObjectMapping: 0.216021 ms MarkObjects: 5.818771 ms  DeleteObjects: 0.337224 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003230 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.371 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2372ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (2127ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (464ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (1303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (1089ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.7 MB.
+System memory in use after: 269.7 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3003.
+Total: 5.293989 ms (FindLiveObjects: 0.242041 ms CreateObjectMapping: 0.105231 ms MarkObjects: 4.704407 ms  DeleteObjects: 0.241351 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003529 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
@@ -643,42 +971,1664 @@ Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
 Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
 Mono: successfully reloaded assembly
-- Completed reload, in  2.405 seconds
+- Completed reload, in  2.369 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2405ms)
-		BeginReloadAssembly (200ms)
+	ReloadAssembly (2370ms)
+		BeginReloadAssembly (168ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (98ms)
-		EndReloadAssembly (2127ms)
-			LoadAssemblies (163ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (2124ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (498ms)
+			SetupTypeCache (467ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (1242ms)
+			SetupLoadedEditorAssemblies (1295ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (149ms)
-				ProcessInitializeOnLoadAttributes (1032ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				ProcessInitializeOnLoadAttributes (1079ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 269.9 MB.
+System memory in use after: 270.0 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3005.
+Total: 5.229747 ms (FindLiveObjects: 0.283998 ms CreateObjectMapping: 0.106292 ms MarkObjects: 4.606121 ms  DeleteObjects: 0.232216 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003489 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.490 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2490ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (2243ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (468ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (1398ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (1167ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 270.2 MB.
+System memory in use after: 270.3 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3007.
+Total: 6.015981 ms (FindLiveObjects: 0.219052 ms CreateObjectMapping: 0.103081 ms MarkObjects: 5.430408 ms  DeleteObjects: 0.262377 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1424.110246 seconds.
+  path: Assets/Wwise/Editor
+  artifactKey: Guid(093b883d0ebe8624f9aef0a22e4c20cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Editor using Guid(093b883d0ebe8624f9aef0a22e4c20cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ece72cecaaa0a667ee72a1729676db') in 0.008273 seconds 
+  Import took 0.014122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.040618 seconds.
+  path: Assets/Wwise/Editor/ProjectData
+  artifactKey: Guid(ea87ecd281d9a4446abb6b0fc9ec633c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Editor/ProjectData using Guid(ea87ecd281d9a4446abb6b0fc9ec633c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8ad3c61cc756c918103f3cf049e339') in 0.004984 seconds 
+  Import took 0.010405 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014300 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2474 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 272.7 MB.
-System memory in use after: 272.7 MB.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.871 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2872ms)
+		BeginReloadAssembly (370ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (183ms)
+		EndReloadAssembly (2411ms)
+			LoadAssemblies (274ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (549ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (1369ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (1148ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 270.4 MB.
+System memory in use after: 270.5 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3009.
+Total: 5.166857 ms (FindLiveObjects: 0.293961 ms CreateObjectMapping: 0.241276 ms MarkObjects: 4.418829 ms  DeleteObjects: 0.211884 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009961 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.469 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2470ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (108ms)
+		EndReloadAssembly (2197ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (494ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (1325ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (1110ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 270.7 MB.
+System memory in use after: 270.8 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3011.
+Total: 6.296953 ms (FindLiveObjects: 0.354141 ms CreateObjectMapping: 0.328713 ms MarkObjects: 5.387147 ms  DeleteObjects: 0.225789 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004540 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.391 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2392ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (112ms)
+		EndReloadAssembly (2125ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (492ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (1267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (1055ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 271.0 MB.
+System memory in use after: 271.1 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3013.
+Total: 5.181099 ms (FindLiveObjects: 0.246315 ms CreateObjectMapping: 0.122048 ms MarkObjects: 4.595588 ms  DeleteObjects: 0.216024 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009490 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.643 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2643ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (113ms)
+		EndReloadAssembly (2369ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (488ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (1491ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (1274ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 271.5 MB.
+System memory in use after: 271.6 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3015.
+Total: 5.899730 ms (FindLiveObjects: 0.307078 ms CreateObjectMapping: 0.241415 ms MarkObjects: 5.125233 ms  DeleteObjects: 0.225121 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006178 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.481 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2481ms)
+		BeginReloadAssembly (228ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (2167ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (484ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (1273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (1057ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 271.8 MB.
+System memory in use after: 271.9 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3017.
+Total: 4.676064 ms (FindLiveObjects: 0.224826 ms CreateObjectMapping: 0.127348 ms MarkObjects: 4.113219 ms  DeleteObjects: 0.209735 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1165.692238 seconds.
+  path: Assets/Ambiance
+  artifactKey: Guid(6c773d87a52284ef29f016d75cbceb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ambiance using Guid(6c773d87a52284ef29f016d75cbceb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d2e1faa0bfaeceef4e856fbfc291a9') in 0.008906 seconds 
+  Import took 0.014209 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010241 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  3.013 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3013ms)
+		BeginReloadAssembly (254ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (110ms)
+		EndReloadAssembly (2667ms)
+			LoadAssemblies (326ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (539ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (1538ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (254ms)
+				ProcessInitializeOnLoadAttributes (1205ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 272.1 MB.
+System memory in use after: 272.2 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3019.
+Total: 5.756978 ms (FindLiveObjects: 0.428178 ms CreateObjectMapping: 0.260023 ms MarkObjects: 4.857118 ms  DeleteObjects: 0.210717 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004032 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.442 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2442ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (108ms)
+		EndReloadAssembly (2166ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (492ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (1299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (1081ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 272.5 MB.
+System memory in use after: 272.5 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3021.
+Total: 5.729670 ms (FindLiveObjects: 0.383335 ms CreateObjectMapping: 0.281401 ms MarkObjects: 4.801184 ms  DeleteObjects: 0.262754 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013812 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.721 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2721ms)
+		BeginReloadAssembly (250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (2383ms)
+			LoadAssemblies (284ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (492ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (1366ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (1152ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 272.8 MB.
+System memory in use after: 272.9 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3023.
+Total: 5.478266 ms (FindLiveObjects: 0.333517 ms CreateObjectMapping: 0.263289 ms MarkObjects: 4.663219 ms  DeleteObjects: 0.217105 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016595 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.788 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2788ms)
+		BeginReloadAssembly (284ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (137ms)
+		EndReloadAssembly (2369ms)
+			LoadAssemblies (233ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (531ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (1388ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (1146ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 273.1 MB.
+System memory in use after: 273.2 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3025.
+Total: 6.713240 ms (FindLiveObjects: 0.468482 ms CreateObjectMapping: 0.319901 ms MarkObjects: 5.687417 ms  DeleteObjects: 0.236067 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004536 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.483 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2484ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (2193ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (540ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (1258ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (1046ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 273.5 MB.
+System memory in use after: 273.6 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3027.
+Total: 5.412491 ms (FindLiveObjects: 0.241736 ms CreateObjectMapping: 0.209710 ms MarkObjects: 4.729816 ms  DeleteObjects: 0.230052 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006607 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.687 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2687ms)
+		BeginReloadAssembly (272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (2325ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (519ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (1360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (1132ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 273.9 MB.
+System memory in use after: 273.9 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3029.
+Total: 6.470370 ms (FindLiveObjects: 0.435474 ms CreateObjectMapping: 0.294334 ms MarkObjects: 5.496532 ms  DeleteObjects: 0.242948 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009968 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.494 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2494ms)
+		BeginReloadAssembly (250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (2158ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (485ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (1295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (1072ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.2 MB.
+System memory in use after: 274.3 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3031.
+Total: 5.054586 ms (FindLiveObjects: 0.245390 ms CreateObjectMapping: 0.121600 ms MarkObjects: 4.474549 ms  DeleteObjects: 0.211389 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003932 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.376 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2377ms)
+		BeginReloadAssembly (178ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (2109ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (484ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (1253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (1034ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.5 MB.
+System memory in use after: 274.6 MB.
 
 Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3033.
-Total: 5.725954 ms (FindLiveObjects: 0.308175 ms CreateObjectMapping: 0.343864 ms MarkObjects: 4.771252 ms  DeleteObjects: 0.301764 ms)
+Total: 6.366011 ms (FindLiveObjects: 0.332820 ms CreateObjectMapping: 0.305836 ms MarkObjects: 5.488063 ms  DeleteObjects: 0.238415 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003526 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.441 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2441ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (113ms)
+		EndReloadAssembly (2168ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (482ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (1317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (1099ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 274.8 MB.
+System memory in use after: 274.8 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3035.
+Total: 5.217167 ms (FindLiveObjects: 0.219608 ms CreateObjectMapping: 0.122129 ms MarkObjects: 4.630485 ms  DeleteObjects: 0.244014 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010888 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.772 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2773ms)
+		BeginReloadAssembly (339ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (205ms)
+		EndReloadAssembly (2310ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (512ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (1349ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (1130ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2596 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 284.2 MB.
+System memory in use after: 282.3 MB.
+
+Unloading 92 unused Assets to reduce memory usage. Loaded Objects now: 3142.
+Total: 6.629273 ms (FindLiveObjects: 0.275518 ms CreateObjectMapping: 0.138892 ms MarkObjects: 5.166967 ms  DeleteObjects: 1.046655 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 55.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 89 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 233.8 MB.
+System memory in use after: 231.8 MB.
+
+Unloading 89 unused Assets to reduce memory usage. Loaded Objects now: 3142.
+Total: 63.178879 ms (FindLiveObjects: 2.707201 ms CreateObjectMapping: 0.328617 ms MarkObjects: 58.991343 ms  DeleteObjects: 1.149240 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 1 -> 0
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006012 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.848 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2849ms)
+		BeginReloadAssembly (317ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (173ms)
+		EndReloadAssembly (2430ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (565ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (1426ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (1209ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2596 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 285.1 MB.
+System memory in use after: 283.2 MB.
+
+Unloading 92 unused Assets to reduce memory usage. Loaded Objects now: 3155.
+Total: 8.513616 ms (FindLiveObjects: 0.328290 ms CreateObjectMapping: 0.217530 ms MarkObjects: 6.463002 ms  DeleteObjects: 1.503509 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.662 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2663ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (112ms)
+		EndReloadAssembly (2395ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (580ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (1386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (1170ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2596 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 285.4 MB.
+System memory in use after: 283.5 MB.
+
+Unloading 92 unused Assets to reduce memory usage. Loaded Objects now: 3168.
+Total: 6.621521 ms (FindLiveObjects: 0.251089 ms CreateObjectMapping: 0.120439 ms MarkObjects: 5.136004 ms  DeleteObjects: 1.112362 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6586.328261 seconds.
+  path: Assets/New Post-processing Profile.asset
+  artifactKey: Guid(b11ca1df9d9ba401f86aaf412c4281f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Post-processing Profile.asset using Guid(b11ca1df9d9ba401f86aaf412c4281f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6848b9304fe89858b4dc796191e2f48') in 0.747151 seconds 
+  Import took 0.762783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.777752 seconds.
+  path: Assets/CC.asset
+  artifactKey: Guid(b11ca1df9d9ba401f86aaf412c4281f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CC.asset using Guid(b11ca1df9d9ba401f86aaf412c4281f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accef1e015787f89fe19c649d91948be') in 0.007719 seconds 
+  Import took 0.015200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 247.694566 seconds.
+  path: Assets/CC.asset
+  artifactKey: Guid(b11ca1df9d9ba401f86aaf412c4281f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CC.asset using Guid(b11ca1df9d9ba401f86aaf412c4281f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33dce5a83199615d569469d94ba407bd') in 0.012517 seconds 
+  Import took 0.018389 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019439 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  3.377 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3377ms)
+		BeginReloadAssembly (303ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (146ms)
+		EndReloadAssembly (2975ms)
+			LoadAssemblies (250ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (757ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (1633ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (213ms)
+				ProcessInitializeOnLoadAttributes (1344ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2596 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 290.3 MB.
+System memory in use after: 288.3 MB.
+
+Unloading 92 unused Assets to reduce memory usage. Loaded Objects now: 3181.
+Total: 10.267928 ms (FindLiveObjects: 0.690262 ms CreateObjectMapping: 0.534267 ms MarkObjects: 7.415764 ms  DeleteObjects: 1.625641 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 154.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  4.935 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4936ms)
+		BeginReloadAssembly (304ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (197ms)
+		EndReloadAssembly (4480ms)
+			LoadAssemblies (169ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1122ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (152ms)
+			SetupLoadedEditorAssemblies (2503ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (154ms)
+				BeforeProcessingInitializeOnLoad (294ms)
+				ProcessInitializeOnLoadAttributes (1984ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Universal Render Pipeline/Terrain/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3852 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 353.2 MB.
+System memory in use after: 346.9 MB.
+
+Unloading 148 unused Assets to reduce memory usage. Loaded Objects now: 4394.
+Total: 10.263527 ms (FindLiveObjects: 0.441677 ms CreateObjectMapping: 0.395531 ms MarkObjects: 5.773191 ms  DeleteObjects: 3.652136 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 900.346150 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.160264 seconds 
+  Import took 0.332854 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005061 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/advapi32
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.27f1/Unity.app/Contents/Frameworks/Mono/lib/libadvapi32.dll
+Mono: successfully reloaded assembly
+- Completed reload, in  2.871 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2871ms)
+		BeginReloadAssembly (326ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (195ms)
+		EndReloadAssembly (2458ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (583ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (1398ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (181ms)
+				ProcessInitializeOnLoadAttributes (1149ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3852 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 354.2 MB.
+System memory in use after: 347.8 MB.
+
+Unloading 149 unused Assets to reduce memory usage. Loaded Objects now: 4407.
+Total: 10.002763 ms (FindLiveObjects: 0.353409 ms CreateObjectMapping: 0.175280 ms MarkObjects: 5.370855 ms  DeleteObjects: 4.102341 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

@@ -489,8 +489,8 @@ MonoBehaviour:
         ObjectType: 14
         guid: 9cf261b5bf4dfc4bb17dd7b5e2ee3e08
       Path: Triggers/Default Work Unit/ProteusqueTrigger1
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedFileSystemItemIds: 01000000020000000300000004000000050000002300000024000000
+  ExpandedWaapiItemIds: 010000000500000006000000070000002a0000002b0000002c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

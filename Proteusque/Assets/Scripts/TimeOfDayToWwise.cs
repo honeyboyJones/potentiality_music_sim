@@ -11,7 +11,7 @@ public class TimeOfDayToWwise : MonoBehaviour
     //called once per frame
     void Update()
     {
-        timeOfDay.SetGlobalValue(LightingManager.TimeOfDay);
+        timeOfDay.SetGlobalValue(DayNightController.timeWwise);
 
         //timeOfDay.Equals(LightingManager.TimeOfDay);
 
