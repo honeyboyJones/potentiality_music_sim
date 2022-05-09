@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: 40573d6215d8b240934d8b9041efe6f5
     GuidInternal: 
-    m_lastTime: -8585524948204775808
+    m_lastTime: -8585519662024775808
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: d49b4335049b5545926c62366168beff
     GuidInternal: 
-    m_lastTime: -8585524948204775808
+    m_lastTime: -8585519662054775808
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 9bc84d3ede430a45ac45bd914f449f50
     GuidInternal: 
-    m_lastTime: -8585524948204775808
+    m_lastTime: -8585519662024775808
     List:
     - name: Proteusque
       guid: 70054bebcffa414787184c27948337f5
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: f950ac43c55d6c4ab08fcf796d6bd8ca
     GuidInternal: 
-    m_lastTime: -8585524948204775808
+    m_lastTime: -8585519662054775808
     List:
     - name: StartMusic
       guid: 47b7e36be07991438c51864b3307be90
@@ -193,7 +193,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: 61898f9d9e3eed4f96e57f9765e4ba2e
     GuidInternal: 
-    m_lastTime: -8585513589284775808
+    m_lastTime: -8585513166324775808
     List:
     - name: PlayerHeight
       guid: 1ffa9e0a012671408064673431e84428
@@ -249,7 +249,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: d4a235ad7fd2a84ca586f1d37653ab2b
     GuidInternal: 
-    m_lastTime: -8585500823744775808
+    m_lastTime: -8585512848714775808
     List:
     - name: Region
       guid: ad31db5c4128334bb0a1f778fa538aae
@@ -377,7 +377,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: a03b7f4b8f45af418d251643e0110661
     GuidInternal: 
-    m_lastTime: -8585513852184775808
+    m_lastTime: -8585513166314775808
     List:
     - name: Region
       guid: 64b65c22d9d5f54696255a0e335581b4
@@ -473,7 +473,7 @@ MonoBehaviour:
     ParentPath: Triggers/Default Work Unit
     guid: 4f8a63a63c790143b9a6a13bdf83c7a4
     GuidInternal: 
-    m_lastTime: -8585524948204775808
+    m_lastTime: -8585519662024775808
     List:
     - name: ProteusqueTrigger1
       guid: 9cf261b5bf4dfc4bb17dd7b5e2ee3e08
